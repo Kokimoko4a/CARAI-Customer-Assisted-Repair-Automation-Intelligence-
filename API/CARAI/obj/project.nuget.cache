@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LYvoWMBzfc1TyXun+D+znEl0OyzDuvKbyTNudZnq1MNBuFOyPrkxru5nqnH4Y71ZMv+CZKPBVvPYBZV0b2Q4dg==",
+  "dgSpecHash": "dezpd8SJwDu54PEzVf16adDZmFoq4WzZtnOceDDWzHIzQlGy8C4X49+RNe+tL/pVwAUf9hXxOagp7c9jmjatkQ==",
   "success": true,
-  "projectFilePath": "D:\\Kaloyan\\CARAI\\API\\CARAI\\CARAI.csproj",
+  "projectFilePath": "D:\\Kaloyan\\CARAI\\API\\CARAI\\CARAI.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

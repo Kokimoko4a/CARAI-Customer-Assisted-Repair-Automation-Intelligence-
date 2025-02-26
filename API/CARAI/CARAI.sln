@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34707.107
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CARAI", "CARAI.csproj", "{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CARAI.API", "CARAI.API.csproj", "{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CARAI.Application", "..\CARAI.Application\CARAI.Application.csproj", "{FB081E08-9B72-440B-BB0E-ECA2D455FF89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CARAI.Domain", "..\CARAI.Domain\CARAI.Domain.csproj", "{7D6429D3-B4D4-475E-8553-A885923F72A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CARAI.Infrastructure", "..\CARAI.Infrastructure\CARAI.Infrastructure.csproj", "{54811A1B-22DF-4815-871D-BB6E7AD8E25E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB081E08-9B72-440B-BB0E-ECA2D455FF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB081E08-9B72-440B-BB0E-ECA2D455FF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB081E08-9B72-440B-BB0E-ECA2D455FF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB081E08-9B72-440B-BB0E-ECA2D455FF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D6429D3-B4D4-475E-8553-A885923F72A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D6429D3-B4D4-475E-8553-A885923F72A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D6429D3-B4D4-475E-8553-A885923F72A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D6429D3-B4D4-475E-8553-A885923F72A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54811A1B-22DF-4815-871D-BB6E7AD8E25E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54811A1B-22DF-4815-871D-BB6E7AD8E25E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54811A1B-22DF-4815-871D-BB6E7AD8E25E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54811A1B-22DF-4815-871D-BB6E7AD8E25E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

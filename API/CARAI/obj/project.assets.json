@@ -434,9 +434,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Kaloyan\\CARAI\\API\\CARAI\\CARAI.csproj",
-      "projectName": "CARAI",
-      "projectPath": "D:\\Kaloyan\\CARAI\\API\\CARAI\\CARAI.csproj",
+      "projectUniqueName": "D:\\Kaloyan\\CARAI\\API\\CARAI\\CARAI.API.csproj",
+      "projectName": "CARAI.API",
+      "projectPath": "D:\\Kaloyan\\CARAI\\API\\CARAI\\CARAI.API.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "D:\\Kaloyan\\CARAI\\API\\CARAI\\obj\\",
       "projectStyle": "PackageReference",

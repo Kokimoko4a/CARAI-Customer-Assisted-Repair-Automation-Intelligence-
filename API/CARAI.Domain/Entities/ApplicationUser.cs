@@ -1,8 +1,8 @@
-﻿
-namespace CARAI.Domain
+﻿namespace CARAI.Domain.Entities
 {
     using Microsoft.AspNetCore.Identity;
     using System.ComponentModel.DataAnnotations;
+    using static CARAI.Domain.Constants.ApplicationUserConstants;
 
     public class ApplicationUser : IdentityUser<Guid>
     {
@@ -17,12 +17,17 @@ namespace CARAI.Domain
         [Required]
         public Guid Id { get; set; }
 
+        [Required]
+        [StringLength(FirstNameMaxLength,MinimumLength = FirstNameMinLength)]
         public string FirstName { get; set; }
 
+
+        [Required]
+        [StringLength(LastNameMaxLength, MinimumLength = LastNameMinLength)]
         public string LastName { get; set; }
 
-        public string Email { get; set; }
-
+        [Required]
+        [Range(AgeMinValue,AgeMaxValue)]
         public int Age { get; set; }
 
 

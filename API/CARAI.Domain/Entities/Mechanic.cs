@@ -1,10 +1,8 @@
-﻿
-
-
-namespace CARAI.Domain
+﻿namespace CARAI.Domain.Entities
 {
 
     using System.ComponentModel.DataAnnotations;
+    using static Domain.Constants.MechanicConstants;
 
     public class Mechanic
     {
@@ -19,12 +17,20 @@ namespace CARAI.Domain
         [Required]
         public Guid Id { get; set; }
 
+        [Required]
+        [StringLength(FirstNameMaxLength, MinimumLength = FirstNameMinLength)]
         public string FirstName { get; set; }
 
+        [Required]
+        [StringLength(LastNameMaxLength, MinimumLength = LastNameMinLength)]
         public string LastName { get; set; }
 
+        [Required]
+        [StringLength(EmailMaxLength, MinimumLength = EmailMinLength)]
         public string Email { get; set; }
 
+        [Required]
+        [Range(AgeMinValue, AgeMaxValue)]
         public int Age { get; set; }
 ]
 

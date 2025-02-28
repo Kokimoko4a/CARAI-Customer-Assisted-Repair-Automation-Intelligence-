@@ -1,10 +1,9 @@
-﻿
-
-namespace CARAI.Domain
+﻿namespace CARAI.Domain.Entities
 {
 
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
+    using static Domain.Constants.ResponseAndRequestConstants;
 
     public class RequestToMechanic
     {
@@ -28,9 +27,12 @@ namespace CARAI.Domain
 
         public Mechanic Receiver { get; set; }
 
-
+        [Required]
+        [StringLength(TitleMaxLength, MinimumLength = TitleMinLength)]
         public string Title { get; set; }
 
+        [Required]
+        [StringLength(DescriptionMaxLength, MinimumLength = DescriptionMinLength)]
         public string Description { get; set; }
     }
 }

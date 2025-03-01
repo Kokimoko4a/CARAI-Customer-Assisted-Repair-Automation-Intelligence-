@@ -32,7 +32,7 @@
         [Required]
         [Range(AgeMinValue, AgeMaxValue)]
         public int Age { get; set; }
-]
+
 
         public ICollection<RequestToMechanic> Requests { get; set; }
 

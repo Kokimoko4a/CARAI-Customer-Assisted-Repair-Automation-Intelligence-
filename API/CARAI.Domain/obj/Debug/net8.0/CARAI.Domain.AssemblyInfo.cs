@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CARAI.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01ae50599914264def5553d3f49af412a481d8f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6571d6d288c1ac75e7a88b0d967598e044e3e8d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("CARAI.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CARAI.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

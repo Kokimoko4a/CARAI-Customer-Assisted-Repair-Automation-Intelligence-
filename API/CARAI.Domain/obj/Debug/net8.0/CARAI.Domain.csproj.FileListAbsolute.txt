@@ -1,0 +1,13 @@
+D:\Kaloyan\CARAI\API\CARAI.Domain\bin\Debug\net8.0\CARAI.Domain.deps.json
+D:\Kaloyan\CARAI\API\CARAI.Domain\bin\Debug\net8.0\CARAI.Domain.dll
+D:\Kaloyan\CARAI\API\CARAI.Domain\bin\Debug\net8.0\CARAI.Domain.pdb
+D:\Kaloyan\CARAI\API\CARAI.Domain\obj\Debug\net8.0\CARAI.Domain.csproj.AssemblyReference.cache
+D:\Kaloyan\CARAI\API\CARAI.Domain\obj\Debug\net8.0\CARAI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kaloyan\CARAI\API\CARAI.Domain\obj\Debug\net8.0\CARAI.Domain.AssemblyInfoInputs.cache
+D:\Kaloyan\CARAI\API\CARAI.Domain\obj\Debug\net8.0\CARAI.Domain.AssemblyInfo.cs
+D:\Kaloyan\CARAI\API\CARAI.Domain\obj\Debug\net8.0\CARAI.Domain.csproj.CoreCompileInputs.cache
+D:\Kaloyan\CARAI\API\CARAI.Domain\obj\Debug\net8.0\CARAI.Domain.sourcelink.json
+D:\Kaloyan\CARAI\API\CARAI.Domain\obj\Debug\net8.0\CARAI.Domain.dll
+D:\Kaloyan\CARAI\API\CARAI.Domain\obj\Debug\net8.0\refint\CARAI.Domain.dll
+D:\Kaloyan\CARAI\API\CARAI.Domain\obj\Debug\net8.0\CARAI.Domain.pdb
+D:\Kaloyan\CARAI\API\CARAI.Domain\obj\Debug\net8.0\ref\CARAI.Domain.dll

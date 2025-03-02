@@ -3,19 +3,56 @@
   "WorkspaceRootPath": "D:\\Kaloyan\\CARAI\\API\\CARAI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{54811A1B-22DF-4815-871D-BB6E7AD8E25E}|..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj|d:\\kaloyan\\carai\\api\\carai.infrastructure\\migrations\\caraidbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54811A1B-22DF-4815-871D-BB6E7AD8E25E}|..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj|d:\\kaloyan\\carai\\api\\carai.infrastructure\\migrations\\20250302093802_initialmigration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54811A1B-22DF-4815-871D-BB6E7AD8E25E}|..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj|d:\\kaloyan\\carai\\api\\carai.infrastructure\\migrations\\20250302093802_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54811A1B-22DF-4815-871D-BB6E7AD8E25E}|..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj|d:\\kaloyan\\carai\\api\\carai.infrastructure\\persistence\\caraidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54811A1B-22DF-4815-871D-BB6E7AD8E25E}|..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj|d:\\kaloyan\\carai\\api\\carai.infrastructure\\carai.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D6429D3-B4D4-475E-8553-A885923F72A4}|..\\CARAI.Domain\\CARAI.Domain.csproj|d:\\kaloyan\\carai\\api\\carai.domain\\entities\\mechanic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|d:\\kaloyan\\carai\\api\\carai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D6429D3-B4D4-475E-8553-A885923F72A4}|..\\CARAI.Domain\\CARAI.Domain.csproj|d:\\kaloyan\\carai\\api\\carai.domain\\entities\\responsefrommechanic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D6429D3-B4D4-475E-8553-A885923F72A4}|..\\CARAI.Domain\\CARAI.Domain.csproj|d:\\kaloyan\\carai\\api\\carai.domain\\entities\\requesttomechanic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D6429D3-B4D4-475E-8553-A885923F72A4}|..\\CARAI.Domain\\CARAI.Domain.csproj|d:\\kaloyan\\carai\\api\\carai.domain\\entities\\mechanic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D6429D3-B4D4-475E-8553-A885923F72A4}|..\\CARAI.Domain\\CARAI.Domain.csproj|d:\\kaloyan\\carai\\api\\carai.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54811A1B-22DF-4815-871D-BB6E7AD8E25E}|..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj|d:\\kaloyan\\carai\\api\\carai.infrastructure\\persistence\\entityconfigurations\\requesttomechanicentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54811A1B-22DF-4815-871D-BB6E7AD8E25E}|..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj|d:\\kaloyan\\carai\\api\\carai.infrastructure\\persistence\\entityconfigurations\\responsefrommechanicentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54811A1B-22DF-4815-871D-BB6E7AD8E25E}|..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj|d:\\kaloyan\\carai\\api\\carai.infrastructure\\persistence\\entityconfigurations\\mechanicentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|d:\\kaloyan\\carai\\api\\carai\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|d:\\kaloyan\\carai\\api\\carai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|d:\\kaloyan\\carai\\api\\carai\\carai.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|solutionrelative:carai.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54811A1B-22DF-4815-871D-BB6E7AD8E25E}|..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj|d:\\kaloyan\\carai\\api\\carai.infrastructure\\carai.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D6429D3-B4D4-475E-8553-A885923F72A4}|..\\CARAI.Domain\\CARAI.Domain.csproj|d:\\kaloyan\\carai\\api\\carai.domain\\constants\\responseandrequestconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -27,9 +64,6 @@
       "AbsoluteMoniker": "D:0:0:{7D6429D3-B4D4-475E-8553-A885923F72A4}|..\\CARAI.Domain\\CARAI.Domain.csproj|d:\\kaloyan\\carai\\api\\carai.domain\\constants\\applicationuserconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D6429D3-B4D4-475E-8553-A885923F72A4}|..\\CARAI.Domain\\CARAI.Domain.csproj|d:\\kaloyan\\carai\\api\\carai.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D6429D3-B4D4-475E-8553-A885923F72A4}|..\\CARAI.Domain\\CARAI.Domain.csproj|d:\\kaloyan\\carai\\api\\carai.domain\\carai.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
@@ -37,10 +71,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\api\\carai.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|d:\\kaloyan\\carai\\api\\carai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|d:\\kaloyan\\carai\\api\\carai\\carai.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -54,21 +84,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CARAI.Infrastructure",
-              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj",
-              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj",
-              "RelativeToolTip": "..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-01T09:30:27.8Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -84,19 +101,214 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CARAIDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Migrations\\CARAIDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\Migrations\\CARAIDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Migrations\\CARAIDbContextModelSnapshot.cs",
+              "RelativeToolTip": "..\\CARAI.Infrastructure\\Migrations\\CARAIDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T09:41:16.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250302093802_InitialMigration.Designer.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Migrations\\20250302093802_InitialMigration.Designer.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\Migrations\\20250302093802_InitialMigration.Designer.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Migrations\\20250302093802_InitialMigration.Designer.cs",
+              "RelativeToolTip": "..\\CARAI.Infrastructure\\Migrations\\20250302093802_InitialMigration.Designer.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T09:38:34.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250302093802_InitialMigration.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Migrations\\20250302093802_InitialMigration.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\Migrations\\20250302093802_InitialMigration.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Migrations\\20250302093802_InitialMigration.cs",
+              "RelativeToolTip": "..\\CARAI.Infrastructure\\Migrations\\20250302093802_InitialMigration.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAHAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T09:38:03.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CARAIDbContext.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\CARAIDbContext.cs",
               "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\Persistence\\CARAIDbContext.cs",
               "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\CARAIDbContext.cs",
               "RelativeToolTip": "..\\CARAI.Infrastructure\\Persistence\\CARAIDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBMAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABcAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-01T09:25:50.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RequestToMechanic.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
+              "RelativeToolTip": "..\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA3wBQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T17:47:37.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Domain\\Entities\\ApplicationUser.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "..\\CARAI.Domain\\Entities\\ApplicationUser.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T18:15:11.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Mechanic.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\Mechanic.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Domain\\Entities\\Mechanic.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\Mechanic.cs",
+              "RelativeToolTip": "..\\CARAI.Domain\\Entities\\Mechanic.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAUwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T17:50:43.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResponseFromMechanic.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\ResponseFromMechanic.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Domain\\Entities\\ResponseFromMechanic.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\ResponseFromMechanic.cs",
+              "RelativeToolTip": "..\\CARAI.Domain\\Entities\\ResponseFromMechanic.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T17:57:38.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-02T08:58:29.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RequestToMechanicEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\RequestToMechanicEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\RequestToMechanicEntityConfiguration.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\RequestToMechanicEntityConfiguration.cs",
+              "RelativeToolTip": "..\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\RequestToMechanicEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T08:48:59.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ResponseFromMechanicEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\ResponseFromMechanicEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\ResponseFromMechanicEntityConfiguration.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\ResponseFromMechanicEntityConfiguration.cs",
+              "RelativeToolTip": "..\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\ResponseFromMechanicEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T08:52:40.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MechanicEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\MechanicEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\MechanicEntityConfiguration.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\MechanicEntityConfiguration.cs",
+              "RelativeToolTip": "..\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\MechanicEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAArwBMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T08:42:31.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T09:17:24.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CARAI.API",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI\\CARAI.API.csproj",
+              "RelativeDocumentMoniker": "CARAI.API.csproj",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI\\CARAI.API.csproj",
+              "RelativeToolTip": "CARAI.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-02T09:08:06.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAwD8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T17:52:13.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CARAI.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj",
+              "RelativeToolTip": "..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-01T09:30:27.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "ApplicationUserConstants.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Constants\\ApplicationUserConstants.cs",
               "RelativeDocumentMoniker": "..\\CARAI.Domain\\Constants\\ApplicationUserConstants.cs",
@@ -109,33 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ResponseFromMechanic.cs",
-              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\ResponseFromMechanic.cs",
-              "RelativeDocumentMoniker": "..\\CARAI.Domain\\Entities\\ResponseFromMechanic.cs",
-              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\ResponseFromMechanic.cs",
-              "RelativeToolTip": "..\\CARAI.Domain\\Entities\\ResponseFromMechanic.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T17:57:38.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Mechanic.cs",
-              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\Mechanic.cs",
-              "RelativeDocumentMoniker": "..\\CARAI.Domain\\Entities\\Mechanic.cs",
-              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\Mechanic.cs",
-              "RelativeToolTip": "..\\CARAI.Domain\\Entities\\Mechanic.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAApwCIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T17:50:43.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "MechanicConstants.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Constants\\MechanicConstants.cs",
               "RelativeDocumentMoniker": "..\\CARAI.Domain\\Constants\\MechanicConstants.cs",
@@ -148,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "ResponseAndRequestConstants.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Constants\\ResponseAndRequestConstants.cs",
               "RelativeDocumentMoniker": "..\\CARAI.Domain\\Constants\\ResponseAndRequestConstants.cs",
@@ -161,20 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RequestToMechanic.cs",
-              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
-              "RelativeDocumentMoniker": "..\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
-              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
-              "RelativeToolTip": "..\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwCQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T17:47:37.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "CARAI.Domain.csproj",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\CARAI.Domain.csproj",
               "RelativeDocumentMoniker": "..\\CARAI.Domain\\CARAI.Domain.csproj",
@@ -187,20 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "..\\CARAI.Domain\\Entities\\ApplicationUser.cs",
-              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\ApplicationUser.cs",
-              "RelativeToolTip": "..\\CARAI.Domain\\Entities\\ApplicationUser.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAIwB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T18:15:11.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "CARAI.Application.csproj",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\CARAI.Application.csproj",
               "RelativeDocumentMoniker": "..\\CARAI.Application\\CARAI.Application.csproj",
@@ -213,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\Class1.cs",
               "RelativeDocumentMoniker": "..\\CARAI.Application\\Class1.cs",
@@ -226,20 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBYAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T17:52:13.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "CARAI.http",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI\\CARAI.http",
               "RelativeDocumentMoniker": "CARAI.http",

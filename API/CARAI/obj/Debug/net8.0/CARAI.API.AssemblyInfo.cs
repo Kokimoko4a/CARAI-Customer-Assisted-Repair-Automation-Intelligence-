@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CARAI.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6838c49a22b01b07b07679a2ab8f0760dc0358b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71ef541e7898e82341011ee5175fa0ad96eb8398")]
 [assembly: System.Reflection.AssemblyProductAttribute("CARAI.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CARAI.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

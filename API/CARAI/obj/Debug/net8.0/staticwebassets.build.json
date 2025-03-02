@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "5zRhSzJ32uVVvAjj4OPn1LVxT9BHgDV6HhnWOiZHk5U=",
-  "Source": "CARAI",
-  "BasePath": "_content/CARAI",
+  "Hash": "e8dXoJ1YhWp7hWqtc1WIKgW7ufRLx5PL0h2O6nzCW38=",
+  "Source": "CARAI.API",
+  "BasePath": "_content/CARAI.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

@@ -12,18 +12,19 @@
         }
 
         [Key]
+        [Required]
         public Guid Id { get; set; }
 
-        [ForeignKey(nameof(Sender))]
-        public string SenderId { get; set; }
+        [ForeignKey(nameof(MechanicSender))]
+        public Guid SenderId { get; set; }
 
-        public Mechanic Sender { get; set; }
+        public Mechanic MechanicSender { get; set; }
 
 
-        [ForeignKey(nameof(Receiver))]
-        public string ReceiverId { get; set; }
+        [ForeignKey(nameof(UserReceiver))]
+        public Guid ReceiverId { get; set; }
 
-        public ApplicationUser Receiver { get; set; }
+        public ApplicationUser UserReceiver { get; set; }
 
         [Required]
         [StringLength(TitleMaxLength, MinimumLength = TitleMinLength)]

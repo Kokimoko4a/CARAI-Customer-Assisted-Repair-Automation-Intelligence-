@@ -1,17 +1,18 @@
-﻿namespace CARAI.Domain.Entities
+﻿
+
+
+namespace CARAI.Domain.Entities
 {
 
-    using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
-    using static Domain.Constants.ResponseAndRequestConstants;
-    using Domain.Entities.Enumerations;
+    using System.ComponentModel.DataAnnotations;
+    using static CARAI.Domain.Constants.BookingConstanrs;
 
-    public class RequestToMechanic
+    public class Booking
     {
-        public RequestToMechanic()
+        public Booking()
         {
-            Id = Guid.NewGuid();
-            Status = 0;
+            Id = Guid.NewGuid();    
         }
 
         [Key]
@@ -38,6 +39,6 @@
         [StringLength(DescriptionMaxLength, MinimumLength = DescriptionMinLength)]
         public string Description { get; set; }
 
-        public RequestStatusEnum Status { get; set; }
+        public DateTime BookedDate { get; set; }
     }
 }

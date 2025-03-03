@@ -25,6 +25,8 @@ namespace CARAI.Infrastructure.Persistence
 
         public DbSet<RequestToMechanic> RequestToMechanics { get; set; }
 
+        public DbSet<Booking> Bookings { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder builder)
         { 

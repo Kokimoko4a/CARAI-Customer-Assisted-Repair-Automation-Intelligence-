@@ -101,6 +101,38 @@ namespace CARAI.Infrastructure.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("CARAI.Domain.Entities.Booking", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("BookedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<Guid>("ReceiverId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("SenderId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(16)
+                        .HasColumnType("nvarchar(16)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("SenderId");
+
+                    b.ToTable("Bookings");
+                });
+
             modelBuilder.Entity("CARAI.Domain.Entities.Mechanic", b =>
                 {
                     b.Property<Guid>("Id")
@@ -146,6 +178,9 @@ namespace CARAI.Infrastructure.Migrations
 
                     b.Property<Guid>("SenderId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -321,6 +356,25 @@ namespace CARAI.Infrastructure.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("CARAI.Domain.Entities.Booking", b =>
+                {
+                    b.HasOne("CARAI.Domain.Entities.ApplicationUser", "UserSender")
+                        .WithMany("Bookings")
+                        .HasForeignKey("SenderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CARAI.Domain.Entities.Mechanic", "MechanicReceiver")
+                        .WithMany("Bookings")
+                        .HasForeignKey("SenderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("MechanicReceiver");
+
+                    b.Navigation("UserSender");
+                });
+
             modelBuilder.Entity("CARAI.Domain.Entities.RequestToMechanic", b =>
                 {
                     b.HasOne("CARAI.Domain.Entities.ApplicationUser", "UserSender")
@@ -412,6 +466,8 @@ namespace CARAI.Infrastructure.Migrations
 
             modelBuilder.Entity("CARAI.Domain.Entities.ApplicationUser", b =>
                 {
+                    b.Navigation("Bookings");
+
                     b.Navigation("Requests");
 
                     b.Navigation("Responses");
@@ -419,6 +475,8 @@ namespace CARAI.Infrastructure.Migrations
 
             modelBuilder.Entity("CARAI.Domain.Entities.Mechanic", b =>
                 {
+                    b.Navigation("Bookings");
+
                     b.Navigation("Requests");
 
                     b.Navigation("Responses");

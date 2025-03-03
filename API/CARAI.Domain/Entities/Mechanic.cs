@@ -11,6 +11,7 @@
             Id = Guid.NewGuid();
             Requests = new HashSet<RequestToMechanic>();
             Responses = new HashSet<ResponseFromMechanic>();
+            Bookings = new HashSet<Booking>();
         }
 
         [Key]
@@ -37,6 +38,8 @@
         public ICollection<RequestToMechanic> Requests { get; set; }
 
         public ICollection<ResponseFromMechanic> Responses { get; set; }
+
+        public ICollection<Booking> Bookings { get; set; }
 
     }
 }

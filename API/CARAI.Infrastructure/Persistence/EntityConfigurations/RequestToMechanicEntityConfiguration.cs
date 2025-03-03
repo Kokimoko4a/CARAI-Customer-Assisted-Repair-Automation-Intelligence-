@@ -14,12 +14,12 @@ namespace CARAI.Infrastructure.Persistence.EntityConfigurations
         public void Configure(EntityTypeBuilder<RequestToMechanic> builder)
         {
             builder.HasOne(x => x.UserSender)
-                .WithMany(x => x.Requests)
-                .HasForeignKey(x => x.SenderId);
+             .WithMany(x => x.Requests)
+             .HasForeignKey(x => x.SenderId);
 
             builder.HasOne(x => x.MechanicReceiver)
                 .WithMany(x => x.Requests)
-                .HasForeignKey(x => x.SenderId);
+                .HasForeignKey(x => x.ReceiverId);
         }
     }
 }

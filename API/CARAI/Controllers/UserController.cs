@@ -2,6 +2,7 @@
 
 namespace CARAI.API.Controllers
 {
+    using CARAI.Application.Commands.RequestToMechanic;
     using CARAI.Application.Commands.User;
     using CARAI.Domain.Entities;
     using MediatR;
@@ -110,6 +111,41 @@ namespace CARAI.API.Controllers
             return Ok(new { Token = tokenString });
         }
 
+        [HttpPost]
+        public async Task<ActionResult> CreateRequestToMechanic(CreateRequestToMechanicCommand mechanicCommand)
+        {
+           /* if (GetTokenAndIdIfExists() == null)
+            {
+                return BadRequest();
+            }*/
+
+            bool isSuccesful = await  mediator.Send(mechanicCommand);
+
+            if (isSuccesful)
+            {
+                return Ok();
+            }
+
+            return BadRequest();    
+        }
+
+
+        private string GetTokenAndIdIfExists()
+        {
+            var token = Request.Headers["Authorization"].ToString();
+
+
+            if (token == null)
+            {
+                return null;
+            }
+
+
+
+            string id = token.Remove(0, 6).Trim();
+
+            return id;
+        }
 
     }
 }

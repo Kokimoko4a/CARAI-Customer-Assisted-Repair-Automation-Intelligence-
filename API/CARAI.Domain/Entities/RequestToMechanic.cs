@@ -26,9 +26,9 @@
 
 
         [ForeignKey(nameof(MechanicReceiver))]
-        public Guid ReceiverId { get; set; }
+        public Guid? ReceiverId { get; set; }
 
-        public Mechanic MechanicReceiver { get; set; }
+        public Mechanic? MechanicReceiver { get; set; }
 
 
 

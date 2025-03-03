@@ -204,7 +204,7 @@ namespace CARAI.Infrastructure.Migrations
                     b.Property<Guid?>("MechanicTaskId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("ReceiverId")
+                    b.Property<Guid?>("ReceiverId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("SenderId")
@@ -219,6 +219,8 @@ namespace CARAI.Infrastructure.Migrations
                         .HasColumnType("nvarchar(16)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ReceiverId");
 
                     b.HasIndex("SenderId");
 
@@ -427,16 +429,15 @@ namespace CARAI.Infrastructure.Migrations
 
             modelBuilder.Entity("CARAI.Domain.Entities.RequestToMechanic", b =>
                 {
+                    b.HasOne("CARAI.Domain.Entities.Mechanic", "MechanicReceiver")
+                        .WithMany("Requests")
+                        .HasForeignKey("ReceiverId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
                     b.HasOne("CARAI.Domain.Entities.ApplicationUser", "UserSender")
                         .WithMany("Requests")
                         .HasForeignKey("SenderId")
                         .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("CARAI.Domain.Entities.Mechanic", "MechanicReceiver")
-                        .WithMany("Requests")
-                        .HasForeignKey("SenderId")
-                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("MechanicReceiver");

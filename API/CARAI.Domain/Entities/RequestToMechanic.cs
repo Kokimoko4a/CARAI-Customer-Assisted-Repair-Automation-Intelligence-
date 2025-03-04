@@ -30,6 +30,15 @@
 
         public Mechanic MechanicReceiver { get; set; }
 
+
+
+        [ForeignKey(nameof(MechanicTask))]
+        public Guid? MechanicTaskId { get; set; }
+
+
+        public MechanicTask? MechanicTask { get; set; }
+
+
         [Required]
         [StringLength(TitleMaxLength, MinimumLength = TitleMinLength)]
         public string Title { get; set; }
@@ -38,6 +47,9 @@
         [StringLength(DescriptionMaxLength, MinimumLength = DescriptionMinLength)]
         public string Description { get; set; }
 
+
         public RequestStatusEnum Status { get; set; }
+
+       
     }
 }

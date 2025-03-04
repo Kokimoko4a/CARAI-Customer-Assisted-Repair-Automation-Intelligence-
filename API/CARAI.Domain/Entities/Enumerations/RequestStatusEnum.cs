@@ -7,6 +7,7 @@ namespace CARAI.Domain.Entities.Enumerations
         Pending = 0,
         Processing = 1,
         Finalizing = 2,
-        Ready = 3
+        Ready = 3,
+        Rejected = 4
     }
 }

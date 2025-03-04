@@ -162,6 +162,34 @@ namespace CARAI.Infrastructure.Migrations
                     b.ToTable("Mechanics");
                 });
 
+            modelBuilder.Entity("CARAI.Domain.Entities.MechanicTask", b =>
+                {
+                    b.Property<Guid>("RequestId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("MechanicId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(16)
+                        .HasColumnType("nvarchar(16)");
+
+                    b.HasKey("RequestId", "MechanicId");
+
+                    b.HasIndex("MechanicId");
+
+                    b.HasIndex("RequestId")
+                        .IsUnique();
+
+                    b.ToTable("MechanicTasks");
+                });
+
             modelBuilder.Entity("CARAI.Domain.Entities.RequestToMechanic", b =>
                 {
                     b.Property<Guid>("Id")
@@ -172,6 +200,9 @@ namespace CARAI.Infrastructure.Migrations
                         .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
+
+                    b.Property<Guid?>("MechanicTaskId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("ReceiverId")
                         .HasColumnType("uniqueidentifier");
@@ -375,6 +406,25 @@ namespace CARAI.Infrastructure.Migrations
                     b.Navigation("UserSender");
                 });
 
+            modelBuilder.Entity("CARAI.Domain.Entities.MechanicTask", b =>
+                {
+                    b.HasOne("CARAI.Domain.Entities.Mechanic", "Mechanic")
+                        .WithMany("MechanicTasks")
+                        .HasForeignKey("MechanicId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CARAI.Domain.Entities.RequestToMechanic", "Request")
+                        .WithOne("MechanicTask")
+                        .HasForeignKey("CARAI.Domain.Entities.MechanicTask", "RequestId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Mechanic");
+
+                    b.Navigation("Request");
+                });
+
             modelBuilder.Entity("CARAI.Domain.Entities.RequestToMechanic", b =>
                 {
                     b.HasOne("CARAI.Domain.Entities.ApplicationUser", "UserSender")
@@ -477,9 +527,16 @@ namespace CARAI.Infrastructure.Migrations
                 {
                     b.Navigation("Bookings");
 
+                    b.Navigation("MechanicTasks");
+
                     b.Navigation("Requests");
 
                     b.Navigation("Responses");
+                });
+
+            modelBuilder.Entity("CARAI.Domain.Entities.RequestToMechanic", b =>
+                {
+                    b.Navigation("MechanicTask");
                 });
 #pragma warning restore 612, 618
         }

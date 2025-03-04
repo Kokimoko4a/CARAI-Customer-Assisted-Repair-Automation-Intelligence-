@@ -12,6 +12,7 @@
             Requests = new HashSet<RequestToMechanic>();
             Responses = new HashSet<ResponseFromMechanic>();
             Bookings = new HashSet<Booking>();
+            MechanicTasks = new HashSet<MechanicTask>();
         }
 
         [Key]
@@ -40,6 +41,8 @@
         public ICollection<ResponseFromMechanic> Responses { get; set; }
 
         public ICollection<Booking> Bookings { get; set; }
+
+        public ICollection<MechanicTask> MechanicTasks { get; set; }
 
     }
 }

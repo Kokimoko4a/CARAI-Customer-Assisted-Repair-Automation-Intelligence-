@@ -9,6 +9,8 @@ namespace CARAI
     using Microsoft.AspNetCore.Authentication.JwtBearer;
     using Microsoft.IdentityModel.Tokens;
     using System.Text;
+    using Microsoft.Extensions.DependencyInjection;
+    using CARAI.Application.Commands.User;
 
     //using Microsoft.AspNetCore.Authentication.JwtBearer;
 
@@ -44,7 +46,10 @@ namespace CARAI
 
 
 
-
+            builder.Services.AddMediatR(config =>
+            {
+                config.RegisterServicesFromAssembly(typeof(RegisterAccountCommand).Assembly); // Register handlers from the current assembly
+            });
 
 
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -64,6 +69,7 @@ namespace CARAI
            });//to use the jwt
 
 
+            builder.Services.AddScoped<IRepository, Repository>();
 
 
             builder.Services.AddControllers();

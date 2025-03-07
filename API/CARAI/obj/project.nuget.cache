@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "hOqqYOHALVPLDPhh9SuLdCpOJaGNnKVaqq8XCYhVXLGUKbHrFIVLJplnk4k+VxDsTgVdF135mzWmq//sK92gzA==",
+  "dgSpecHash": "XlfplwoszhI9dOLJWhPIu2y3Hj/n8NSPO0u5kRCbjv99E4iti0oONhGPAMwY4XLLcXU+QbflI0BI5PwS+l1Wzw==",
   "success": true,
   "projectFilePath": "D:\\Kaloyan\\CARAI\\API\\CARAI\\CARAI.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.3.0\\microsoft.aspnetcore.authentication.2.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.3.0\\microsoft.aspnetcore.authentication.cookies.2.3.0.nupkg.sha512",

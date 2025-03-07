@@ -184,3 +184,7 @@ D:\Kaloyan\CARAI\API\CARAI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces
 D:\Kaloyan\CARAI\API\CARAI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\Kaloyan\CARAI\API\CARAI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\Kaloyan\CARAI\API\CARAI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Kaloyan\CARAI\API\CARAI\bin\Debug\net8.0\MediatR.dll
+D:\Kaloyan\CARAI\API\CARAI\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\Kaloyan\CARAI\API\CARAI\bin\Debug\net8.0\CARAI.Application.dll
+D:\Kaloyan\CARAI\API\CARAI\bin\Debug\net8.0\CARAI.Application.pdb

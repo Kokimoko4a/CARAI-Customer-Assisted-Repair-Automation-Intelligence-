@@ -10,3 +10,9 @@ D:\Kaloyan\CARAI\API\CARAI.Application\obj\Debug\net8.0\CARAI.Application.dll
 D:\Kaloyan\CARAI\API\CARAI.Application\obj\Debug\net8.0\refint\CARAI.Application.dll
 D:\Kaloyan\CARAI\API\CARAI.Application\obj\Debug\net8.0\CARAI.Application.pdb
 D:\Kaloyan\CARAI\API\CARAI.Application\obj\Debug\net8.0\ref\CARAI.Application.dll
+D:\Kaloyan\CARAI\API\CARAI.Application\obj\Debug\net8.0\CARAI.Application.csproj.AssemblyReference.cache
+D:\Kaloyan\CARAI\API\CARAI.Application\bin\Debug\net8.0\CARAI.Domain.dll
+D:\Kaloyan\CARAI\API\CARAI.Application\bin\Debug\net8.0\CARAI.Infrastructure.dll
+D:\Kaloyan\CARAI\API\CARAI.Application\bin\Debug\net8.0\CARAI.Infrastructure.pdb
+D:\Kaloyan\CARAI\API\CARAI.Application\bin\Debug\net8.0\CARAI.Domain.pdb
+D:\Kaloyan\CARAI\API\CARAI.Application\obj\Debug\net8.0\CARAI.Ap.D6C9C691.Up2Date

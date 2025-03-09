@@ -31,7 +31,7 @@ namespace CARAI.API.Controllers
         [HttpPost("register")]
         public async Task<ActionResult> Index([FromBody] RegisterAccountCommand registerAccountCommand)
         {
-            var user = await  mediator.Send(registerAccountCommand);
+            var user = await mediator.Send(registerAccountCommand);
 
             // Step 2: Set email and username
             await userManager.SetEmailAsync(user, registerAccountCommand.Email);
@@ -46,7 +46,7 @@ namespace CARAI.API.Controllers
             }
 
             // Step 4: Generate JWT Token after user is created
-                    var claims = new List<Claim>
+            var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, user.UserName!),
                 new Claim(ClaimTypes.Email, user.Email!),
@@ -64,6 +64,47 @@ namespace CARAI.API.Controllers
                 signingCredentials: creds
             );
 
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var tokenString = user.Id;
+
+            return Ok(new { Token = tokenString });
+        }
+
+
+
+        [HttpPost("login")]
+        public async Task<ActionResult> Login([FromBody] LogUserCommand logUserCommand)
+        {
+
+            ApplicationUser user = await mediator.Send(logUserCommand);
+
+            var passwordHasher = new PasswordHasher<ApplicationUser>();
+
+            if (user == null || passwordHasher.VerifyHashedPassword(user, user.PasswordHash, logUserCommand.Password) == PasswordVerificationResult.Failed)
+            {
+                return Unauthorized(new { Message = "Invalid email or password." });
+            }
+
+            var claims = new List<Claim>
+             {
+                new Claim(ClaimTypes.Name, user.UserName),
+                new Claim(ClaimTypes.Email, user.Email),
+            };
+
+            // Create signing credentials with a symmetric key (make sure to keep the secret key safe)
+            var key = Encoding.UTF8.GetBytes("your-secure-key-that-is-at-least-16-bytes"); // 128 bits
+            var creds = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256);
+
+            // Generate the JWT token (set expiration and other token parameters)
+            var token = new JwtSecurityToken(
+                issuer: "YourIssuer", // e.g., "MyApp"
+                audience: "YourAudience", // e.g., "MyAppClients"
+                claims: claims,
+                expires: DateTime.Now.AddHours(1), // Token expiration time
+                signingCredentials: creds
+            );
+
+            // Return the token as part of the response
             var tokenHandler = new JwtSecurityTokenHandler();
             var tokenString = user.Id;
 

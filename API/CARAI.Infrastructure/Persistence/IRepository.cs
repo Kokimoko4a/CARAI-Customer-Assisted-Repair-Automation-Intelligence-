@@ -11,6 +11,6 @@ namespace CARAI.Infrastructure.Persistence
     {
         public Task<bool> ExistsByEmail(string email);
 
-       
+       public Task<ApplicationUser> GetUserByEmailAsync(string email);
     }
 }

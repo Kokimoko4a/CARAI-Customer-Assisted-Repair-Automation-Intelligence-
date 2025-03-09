@@ -21,8 +21,9 @@ namespace CARAI.Infrastructure.Persistence
             return await data.Users.AnyAsync(u => u.Email == email);
         }
 
-
- 
-
+        public async Task<ApplicationUser> GetUserByEmailAsync(string email)
+        {
+            return await data.Users.FirstOrDefaultAsync(x => x.Email == email);
+        }
     }
 }

@@ -20,6 +20,16 @@ namespace CARAI
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", policy =>
+                {
+                    policy.AllowAnyOrigin()  // Allow any origin (you can specify one if needed)
+                          .AllowAnyHeader()   // Allow any headers
+                          .AllowAnyMethod();  // Allow any HTTP method (GET, POST, etc.)
+                });
+            });
+
             // Add services to the container.
 
             string connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
@@ -78,6 +88,8 @@ namespace CARAI
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
+
+            app.UseCors("AllowAll");
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())

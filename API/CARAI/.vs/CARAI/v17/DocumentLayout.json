@@ -3,12 +3,15 @@
   "WorkspaceRootPath": "D:\\Kaloyan\\CARAI\\API\\CARAI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|d:\\kaloyan\\carai\\api\\carai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|d:\\kaloyan\\carai\\api\\carai\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\api\\carai.application\\commands\\user\\registeraccountcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|d:\\kaloyan\\carai\\api\\carai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\api\\carai.application\\commands\\user\\logusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -18,9 +21,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{54811A1B-22DF-4815-871D-BB6E7AD8E25E}|..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj|d:\\kaloyan\\carai\\api\\carai.infrastructure\\persistence\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\api\\carai.application\\commands\\user\\registeraccountcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\api\\carai.application\\commands\\user\\logusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -117,7 +117,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -133,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LogUserCommandHandler.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\Commands\\User\\LogUserCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\CARAI.Application\\Commands\\User\\LogUserCommandHandler.cs",
@@ -141,8 +141,7 @@
               "RelativeToolTip": "..\\CARAI.Application\\Commands\\User\\LogUserCommandHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T12:15:21.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T12:15:21.131Z"
             },
             {
               "$type": "Document",
@@ -154,25 +153,24 @@
               "RelativeToolTip": "..\\CARAI.Application\\Commands\\User\\LogUserCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T12:14:10.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T12:14:10.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "RegisterAccountCommandHandler.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\Commands\\User\\RegisterAccountCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\CARAI.Application\\Commands\\User\\RegisterAccountCommandHandler.cs",
               "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\Commands\\User\\RegisterAccountCommandHandler.cs",
               "RelativeToolTip": "..\\CARAI.Application\\Commands\\User\\RegisterAccountCommandHandler.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBgAAAA5AAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T11:36:23.708Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Repository.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\Repository.cs",
               "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\Persistence\\Repository.cs",
@@ -180,12 +178,11 @@
               "RelativeToolTip": "..\\CARAI.Infrastructure\\Persistence\\Repository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T11:38:20.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T11:38:20.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IRepository.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\IRepository.cs",
               "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\Persistence\\IRepository.cs",
@@ -193,31 +190,30 @@
               "RelativeToolTip": "..\\CARAI.Infrastructure\\Persistence\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T11:38:28.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T11:38:28.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAAAHAAAAAFAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAUwEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T09:17:24.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAABsAAAAQAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwF0AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T17:52:13.316Z",
               "EditorCaption": ""
@@ -232,8 +228,7 @@
               "RelativeToolTip": "..\\CARAI.Application\\Commands\\User\\RegisterAccountCommand.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T11:30:52.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T11:30:52.415Z"
             },
             {
               "$type": "Document",

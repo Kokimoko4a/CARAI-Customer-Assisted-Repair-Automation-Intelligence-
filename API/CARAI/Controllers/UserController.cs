@@ -29,7 +29,7 @@ namespace CARAI.API.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<ActionResult> Index([FromBody] RegisterAccountCommand registerAccountCommand)
+        public async Task<ActionResult> Register([FromBody] RegisterAccountCommand registerAccountCommand)
         {
             var user = await mediator.Send(registerAccountCommand);
 

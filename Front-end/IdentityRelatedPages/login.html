@@ -99,34 +99,39 @@
     </div>
 
     <script>
-        document.getElementById("loginForm").addEventListener("submit", async function (event) {
-            event.preventDefault();
+  document.getElementById("loginForm").addEventListener("submit", async function (event) {
+    event.preventDefault();
 
-            const loginData = {
-                email: document.getElementById("email").value,
-                password: document.getElementById("password").value
-            };
+    const loginData = {
+        email: document.getElementById("email").value,
+        password: document.getElementById("password").value
+    };
 
-            try {
-                let response = await fetch("/api/auth/login", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify(loginData)
-                });
-
-                if (response.ok) {
-                    let data = await response.json();
-                    localStorage.setItem("token", data.token);
-                    alert("Login successful! Redirecting...");
-                    window.location.href = "dashboard.html"; // Change to your actual landing page
-                } else {
-                    alert("Error: Invalid credentials");
-                }
-            } catch (error) {
-                console.error("Error logging in:", error);
-                alert("An error occurred. Please try again.");
-            }
+    try {
+        let response = await fetch("https://localhost:7034/User/login", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(loginData)
         });
+
+        let data = await response.json();
+        console.log("Full backend response:", data); // Log full response
+
+        if (data.Token) {
+            console.log("Received token:", data.Token);
+            localStorage.setItem("token", data.Token);
+            alert("Login successful! Redirecting...");
+            window.location.href = "dashboard.html";
+        } else {
+            console.error("Token missing from response:", data);
+            alert("Error: No token received.");
+        }
+    } catch (error) {
+        console.error("Error logging in:", error);
+        alert("An error occurred. Please try again.");
+    }
+});
+
     </script>
 </body>
 </html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARAI - Home</title>
+    <style>
+        /* Dark Theme */
+        body {
+            font-family: Arial, sans-serif;
+            background: #1e1e2e;
+            color: #ddd;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        
+        .container {
+            background: #2a2a3a;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            width: 400px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #6272a4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #53608c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CARAI</h1>
+        <p>Customer-Assisted Repair Automation Intelligence</p>
+        <div class="buttons">
+            <button onclick="location.href='IdentityRelatedPages/login.html'">Log In</button>
+            <button onclick="location.href='IdentityRelatedPages/register.html'">Register</button>
+        </div>
+    </div>
+</body>
+</html>

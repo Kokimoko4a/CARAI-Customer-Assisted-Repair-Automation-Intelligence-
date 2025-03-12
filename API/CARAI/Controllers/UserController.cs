@@ -75,7 +75,6 @@ namespace CARAI.API.Controllers
         [HttpPost("login")]
         public async Task<ActionResult> Login([FromBody] LogUserCommand logUserCommand)
         {
-
             ApplicationUser user = await mediator.Send(logUserCommand);
 
             var passwordHasher = new PasswordHasher<ApplicationUser>();
@@ -86,10 +85,10 @@ namespace CARAI.API.Controllers
             }
 
             var claims = new List<Claim>
-             {
-                new Claim(ClaimTypes.Name, user.UserName),
-                new Claim(ClaimTypes.Email, user.Email),
-            };
+                {
+                    new Claim(ClaimTypes.Name, user.UserName),
+                    new Claim(ClaimTypes.Email, user.Email),
+                };
 
             // Create signing credentials with a symmetric key (make sure to keep the secret key safe)
             var key = Encoding.UTF8.GetBytes("your-secure-key-that-is-at-least-16-bytes"); // 128 bits
@@ -110,5 +109,6 @@ namespace CARAI.API.Controllers
 
             return Ok(new { Token = tokenString });
         }
+
     }
 }

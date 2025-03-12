@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -99,8 +101,11 @@
     </div>
 
     <script>
-  document.getElementById("loginForm").addEventListener("submit", async function (event) {
-    event.preventDefault();
+       
+
+
+       document.getElementById("loginForm").addEventListener("submit", async function (event) {
+    event.preventDefault(); // Prevent form submission
 
     const loginData = {
         email: document.getElementById("email").value,
@@ -114,14 +119,25 @@
             body: JSON.stringify(loginData)
         });
 
-        let data = await response.json();
-        console.log("Full backend response:", data); // Log full response
+        console.log("HTTP Status:", response.status); // Debugging
 
-        if (data.Token) {
-            console.log("Received token:", data.Token);
-            localStorage.setItem("token", data.Token);
+        if (!response.ok) {
+            let errorData = await response.json();
+            console.error("Error Response:", errorData);
+            alert("Login failed: " + (errorData.Message || "Unknown error"));
+            return;
+        }
+
+        let data = await response.json(); // Read response JSON
+        console.log("Full backend response:", data); // Debugging
+
+        // Check if the response contains the token
+        if (data && data.token) {
+            console.log("Received token:", data.token); // Now it’s the correct token
+            localStorage.setItem("token", data.token); // Store token
             alert("Login successful! Redirecting...");
-            window.location.href = "dashboard.html";
+            
+            window.location.href = "../index.html"; // Redirect
         } else {
             console.error("Token missing from response:", data);
             alert("Error: No token received.");
@@ -131,6 +147,7 @@
         alert("An error occurred. Please try again.");
     }
 });
+
 
     </script>
 </body>

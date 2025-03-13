@@ -141,8 +141,7 @@
               "RelativeToolTip": "..\\CARAI.Application\\Commands\\User\\LogUserCommandHandler.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAwBoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T12:15:21.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T12:15:21.131Z"
             },
             {
               "$type": "Document",
@@ -166,8 +165,7 @@
               "RelativeToolTip": "..\\CARAI.Application\\Commands\\User\\RegisterAccountCommandHandler.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAACIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T11:36:23.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T11:36:23.708Z"
             },
             {
               "$type": "Document",
@@ -179,8 +177,7 @@
               "RelativeToolTip": "..\\CARAI.Infrastructure\\Persistence\\Repository.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAAwBUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T11:38:20.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T11:38:20.485Z"
             },
             {
               "$type": "Document",
@@ -202,7 +199,7 @@
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "D:\\Kaloyan\\CARAI\\API\\CARAI\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAiwEcAAAAAAAAA",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAAAGgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T09:17:24.95Z",
               "EditorCaption": ""

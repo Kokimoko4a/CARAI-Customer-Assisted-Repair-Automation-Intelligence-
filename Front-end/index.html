@@ -61,10 +61,32 @@
     <div class="container">
         <h1>CARAI</h1>
         <p>Customer-Assisted Repair Automation Intelligence</p>
-        <div class="buttons">
-            <button onclick="location.href='IdentityRelatedPages/login.html'">Log In</button>
-            <button onclick="location.href='IdentityRelatedPages/register.html'">Register</button>
+        <div class="buttons" id="buttonContainer">
+            <button id="loginBtn" onclick="location.href='IdentityRelatedPages/login.html'">Log In</button>
+            <button id="registerBtn" onclick="location.href='IdentityRelatedPages/register.html'">Register</button>
         </div>
     </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const buttonContainer = document.getElementById("buttonContainer");
+            const loginBtn = document.getElementById("loginBtn");
+            const registerBtn = document.getElementById("registerBtn");
+            
+            if (localStorage.getItem("token")) {
+                loginBtn.style.display = "none";
+                registerBtn.style.display = "none";
+                
+                const logoutBtn = document.createElement("button");
+                logoutBtn.textContent = "Log Out";
+                logoutBtn.onclick = function () {
+                    localStorage.removeItem("token");
+                    location.reload();
+                };
+                
+                buttonContainer.appendChild(logoutBtn);
+            }
+        });
+    </script>
 </body>
 </html>

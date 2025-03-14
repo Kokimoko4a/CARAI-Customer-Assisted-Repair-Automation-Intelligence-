@@ -85,6 +85,16 @@
                 };
                 
                 buttonContainer.appendChild(logoutBtn);
+
+                // Add "Ask mechanic" button
+                const askMechanicBtn = document.createElement("button");
+                askMechanicBtn.textContent = "Ask Mechanic";
+                askMechanicBtn.onclick = function () {
+                    // Your action when the "Ask mechanic" button is clicked
+                    alert('Redirecting to mechanic help...');
+                };
+                
+                buttonContainer.appendChild(askMechanicBtn);
             }
         });
     </script>

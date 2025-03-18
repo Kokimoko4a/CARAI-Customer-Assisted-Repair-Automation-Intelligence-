@@ -111,13 +111,13 @@ namespace CARAI.API.Controllers
             return Ok(new { Token = tokenString });
         }
 
-        [HttpPost]
+        [HttpPost("createRequest")]
         public async Task<ActionResult> CreateRequestToMechanic(CreateRequestToMechanicCommand mechanicCommand)
         {
-           /* if (GetTokenAndIdIfExists() == null)
+            if (GetTokenAndIdIfExists() == null)
             {
                 return BadRequest();
-            }*/
+            }
 
             bool isSuccesful = await  mediator.Send(mechanicCommand);
 

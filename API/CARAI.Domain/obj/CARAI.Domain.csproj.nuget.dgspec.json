@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\CARAI.Domain.csproj": {}
+    "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Domain\\CARAI.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\CARAI.Domain.csproj": {
+    "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Domain\\CARAI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\CARAI.Domain.csproj",
+        "projectUniqueName": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Domain\\CARAI.Domain.csproj",
         "projectName": "CARAI.Domain",
-        "projectPath": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\CARAI.Domain.csproj",
+        "projectPath": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Domain\\CARAI.Domain.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\obj\\",
+        "outputPath": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

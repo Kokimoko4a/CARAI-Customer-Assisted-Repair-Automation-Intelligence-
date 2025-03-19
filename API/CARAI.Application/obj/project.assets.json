@@ -4080,11 +4080,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\CARAI.Application.csproj",
+      "projectUniqueName": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\CARAI.Application.csproj",
       "projectName": "CARAI.Application",
-      "projectPath": "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\CARAI.Application.csproj",
+      "projectPath": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\CARAI.Application.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\obj\\",
+      "outputPath": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4106,8 +4106,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj": {
-              "projectPath": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj"
+            "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj": {
+              "projectPath": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj"
             }
           }
         }

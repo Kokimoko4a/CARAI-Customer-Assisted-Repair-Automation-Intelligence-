@@ -5926,11 +5926,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj",
       "projectName": "CARAI.Infrastructure",
-      "projectPath": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj",
+      "projectPath": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\obj\\",
+      "outputPath": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5952,8 +5952,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\CARAI.Domain.csproj": {
-              "projectPath": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\CARAI.Domain.csproj"
+            "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Domain\\CARAI.Domain.csproj": {
+              "projectPath": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Domain\\CARAI.Domain.csproj"
             }
           }
         }
@@ -6021,5 +6021,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNetCore.Identity' 2.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-2865-hh9g-w894",
+      "libraryId": "Microsoft.AspNetCore.Identity",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

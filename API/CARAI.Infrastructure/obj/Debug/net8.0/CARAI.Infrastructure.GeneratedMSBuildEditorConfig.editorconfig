@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CARAI.Infrastructure
-build_property.ProjectDir = D:\Kaloyan\CARAI\API\CARAI.Infrastructure\
+build_property.ProjectDir = D:\Kaloyan\CARAI\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\API\CARAI.Infrastructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

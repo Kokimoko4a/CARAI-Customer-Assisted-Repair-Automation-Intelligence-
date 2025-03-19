@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yUgYtXSjT8Fqo+OjxW9jyJdYGiSry5g497ctV7ks3gjaTM5GqpTPpa3WOZS8qHHIAj1EX1h0F5/CLF8TtxbQlg==",
+  "dgSpecHash": "zL87F9XQ3wkTrBYJ7FlpBPGyDmP0U77LJwijeIu0LY0yGKTe+dZ9aqsURUIcG3nxem8j4Tnici+9bZ/3/6DGhA==",
   "success": true,
-  "projectFilePath": "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\CARAI.Application.csproj",
+  "projectFilePath": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\CARAI.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -6132,11 +6132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Kaloyan\\CARAI\\API\\CARAI\\CARAI.API.csproj",
+      "projectUniqueName": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI\\CARAI.API.csproj",
       "projectName": "CARAI.API",
-      "projectPath": "D:\\Kaloyan\\CARAI\\API\\CARAI\\CARAI.API.csproj",
+      "projectPath": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI\\CARAI.API.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Kaloyan\\CARAI\\API\\CARAI\\obj\\",
+      "outputPath": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6158,11 +6158,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\CARAI.Application.csproj": {
-              "projectPath": "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\CARAI.Application.csproj"
+            "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\CARAI.Application.csproj": {
+              "projectPath": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\CARAI.Application.csproj"
             },
-            "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj": {
-              "projectPath": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj"
+            "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj": {
+              "projectPath": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj"
             }
           }
         }

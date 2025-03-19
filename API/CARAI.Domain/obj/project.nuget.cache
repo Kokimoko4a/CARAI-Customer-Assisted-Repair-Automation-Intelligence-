@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yPjYqA9f77I2a8qpIlsldO3+VgQPyxeDQmFtC7XCDrcOoK/lgimW2395oiwj1F2dKG8BKmzrMxm0eU+YuuoqfA==",
+  "dgSpecHash": "1iEWbXY6KIJ6w6Y3OoiYawz9vtExOMIYeRFXaAbmEsNcehvR4gjrbLilOB5E2Ph2GsTWGGdoeorq27LfH6s2dg==",
   "success": true,
-  "projectFilePath": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\CARAI.Domain.csproj",
+  "projectFilePath": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Domain\\CARAI.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.3.0\\microsoft.aspnetcore.authentication.2.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
@@ -47,5 +47,16 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNetCore.Identity' 2.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-2865-hh9g-w894",
+      "libraryId": "Microsoft.AspNetCore.Identity",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

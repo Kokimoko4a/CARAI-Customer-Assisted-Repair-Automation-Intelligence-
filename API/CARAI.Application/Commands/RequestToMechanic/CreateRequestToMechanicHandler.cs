@@ -3,19 +3,21 @@
 
 namespace CARAI.Application.Commands.RequestToMechanic
 {
-    using CARAI.Infrastructure.Persistence;
     using MediatR;
     using System.Threading;
     using System.Threading.Tasks;
     using CARAI.Domain.Entities;
+    using CARAI.Application.Interfaces;
 
     public class CreateRequestToMechanicHandler : IRequestHandler<CreateRequestToMechanicCommand, bool>
     {
-        private readonly IRepository repository;
+        private readonly IRequestToMechanicRepository requestToMechanicRepo;
+        private readonly IUserRepository userRepo;
 
-        public CreateRequestToMechanicHandler(IRepository repository)
+        public CreateRequestToMechanicHandler(IRequestToMechanicRepository requestToMechanicRepo , IUserRepository userRepo )
         {
-            this.repository = repository;
+            this.requestToMechanicRepo = requestToMechanicRepo;
+            this.userRepo = userRepo;
         }
 
         public async Task<bool> Handle(CreateRequestToMechanicCommand request, CancellationToken cancellationToken)
@@ -23,11 +25,11 @@ namespace CARAI.Application.Commands.RequestToMechanic
             RequestToMechanic requestToMechanic = new RequestToMechanic();
 
             requestToMechanic.SenderId = Guid.Parse(request.UserSenderId);
-            requestToMechanic.UserSender = await repository.GetUserByIdAsync(request.UserSenderId);
+            requestToMechanic.UserSender = await userRepo.GetUserByIdAsync(request.UserSenderId);
             requestToMechanic.Description = request.Description;
             requestToMechanic.Title = request.Title;
 
-            return await repository.CreateRequestToMechanic(requestToMechanic);
+            return await requestToMechanicRepo.CreateRequestToMechanic(requestToMechanic);
 
 
         }

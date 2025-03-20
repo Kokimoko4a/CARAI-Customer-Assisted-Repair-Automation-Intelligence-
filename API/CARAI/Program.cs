@@ -11,6 +11,7 @@ namespace CARAI
     using System.Text;
     using Microsoft.Extensions.DependencyInjection;
     using CARAI.Application.Commands.User;
+    using CARAI.Application.Interfaces;
 
     //using Microsoft.AspNetCore.Authentication.JwtBearer;
 
@@ -79,7 +80,8 @@ namespace CARAI
            });//to use the jwt
 
 
-            builder.Services.AddScoped<IRepository, Repository>();
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IRequestToMechanicRepository, RequestToMechanicRepository>();
 
 
             builder.Services.AddControllers();

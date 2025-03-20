@@ -3,14 +3,14 @@
     using MediatR;
     using System.Threading;
     using System.Threading.Tasks;
-    using CARAI.Infrastructure.Persistence;
     using CARAI.Domain.Entities;
+    using CARAI.Application.Interfaces;
 
     public class RegisterAccountCommandHandler : IRequestHandler<RegisterAccountCommand, ApplicationUser>
     {
-        private readonly IRepository data;
+        private readonly IUserRepository data;
 
-        public RegisterAccountCommandHandler(IRepository data)
+        public RegisterAccountCommandHandler(IUserRepository data)
         {
             this.data = data;
         }

@@ -2220,7 +2220,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "CARAI.Infrastructure": "1.0.0",
+          "CARAI.Domain": "1.0.0",
           "MediatR": "12.4.1"
         },
         "compile": {
@@ -2248,6 +2248,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CARAI.Application": "1.0.0",
           "CARAI.Domain": "1.0.0",
           "Microsoft.AspNetCore.Identity": "2.3.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0",

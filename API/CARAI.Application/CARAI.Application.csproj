@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CARAI.Infrastructure\CARAI.Infrastructure.csproj" />
+    <ProjectReference Include="..\CARAI.Domain\CARAI.Domain.csproj" />
   </ItemGroup>
 
 </Project>

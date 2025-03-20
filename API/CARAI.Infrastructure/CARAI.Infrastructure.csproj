@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CARAI.Application\CARAI.Application.csproj" />
     <ProjectReference Include="..\CARAI.Domain\CARAI.Domain.csproj" />
   </ItemGroup>
 

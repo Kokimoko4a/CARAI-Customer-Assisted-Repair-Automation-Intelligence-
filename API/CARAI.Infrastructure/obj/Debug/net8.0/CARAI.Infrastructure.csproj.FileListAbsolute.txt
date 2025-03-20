@@ -34,3 +34,5 @@ D:\Kaloyan\CARAI\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\API\CAR
 D:\Kaloyan\CARAI\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\API\CARAI.Infrastructure\obj\Debug\net8.0\CARAI.Infrastructure.pdb
 D:\Kaloyan\CARAI\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\API\CARAI.Infrastructure\obj\Debug\net8.0\CARAI.Infrastructure.genruntimeconfig.cache
 D:\Kaloyan\CARAI\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\API\CARAI.Infrastructure\obj\Debug\net8.0\ref\CARAI.Infrastructure.dll
+D:\Kaloyan\CARAI\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\API\CARAI.Infrastructure\bin\Debug\net8.0\CARAI.Application.dll
+D:\Kaloyan\CARAI\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\API\CARAI.Infrastructure\bin\Debug\net8.0\CARAI.Application.pdb

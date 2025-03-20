@@ -2,17 +2,17 @@
 
 namespace CARAI.Application.Commands.User
 {
+    using CARAI.Application.Interfaces;
     using CARAI.Domain.Entities;
-    using CARAI.Infrastructure.Persistence;
     using MediatR;
     using System.Threading;
     using System.Threading.Tasks;
 
     public class LogUserCommandHandler : IRequestHandler<LogUserCommand, ApplicationUser>
     {
-        private readonly IRepository data;
+        private readonly IUserRepository data;
 
-        public LogUserCommandHandler(IRepository data)
+        public LogUserCommandHandler(IUserRepository data)
         {
             this.data = data;            
         }

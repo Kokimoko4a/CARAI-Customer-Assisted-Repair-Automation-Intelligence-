@@ -129,13 +129,27 @@ namespace CARAI.API.Controllers
             return BadRequest();    
         }
 
+        [HttpGet("getAllRequestsToMechanicForUser")]
+
+        public async Task<ActionResult> GetAllRequestsToMechanicForUser()
+        {
+            if (GetTokenAndIdIfExists()  == null)
+            {
+                return BadRequest();
+            }
+
+            //get the requests to mechanic for user by using the mediator
+
+            return Ok(); //if succeed ;)
+        }
+
 
         private string GetTokenAndIdIfExists()
         {
             var token = Request.Headers["Authorization"].ToString();
 
 
-            if (token == null)
+            if (string.IsNullOrWhiteSpace(token))
             {
                 return null;
             }
@@ -146,6 +160,8 @@ namespace CARAI.API.Controllers
 
             return id;
         }
+
+
 
     }
 }

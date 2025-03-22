@@ -4,6 +4,7 @@ namespace CARAI.API.Controllers
 {
     using CARAI.Application.Commands.RequestToMechanic;
     using CARAI.Application.Commands.User;
+    using CARAI.Application.Queries.RequestsToMechanic;
     using CARAI.Domain.Entities;
     using MediatR;
     using Microsoft.AspNetCore.Http;
@@ -138,9 +139,11 @@ namespace CARAI.API.Controllers
                 return BadRequest();
             }
 
-            //get the requests to mechanic for user by using the mediator
 
-            return Ok(); //if succeed ;)
+            RequestToMechanicQuery toMechanicCommand = new RequestToMechanicQuery();
+            toMechanicCommand.UserId = Guid.Parse(GetTokenAndIdIfExists());
+
+            return Ok(await mediator.Send(toMechanicCommand)); 
         }
 
 

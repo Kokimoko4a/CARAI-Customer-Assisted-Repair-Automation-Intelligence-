@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Requests to Mechanics</title>
+    <style>
+        /* Dark Theme */
+        body {
+            font-family: Arial, sans-serif;
+            background: #1e1e2e;
+            color: #ddd;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        .container {
+            background: #2a2a3a;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            width: 600px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            text-align: left;
+            color: white;
+        }
+
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #444;
+        }
+
+        th {
+            background-color: #333;
+        }
+
+        .status {
+            font-weight: bold;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #6272a4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #53608c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Requests to Mechanics</h1>
+        <table id="requestsTable">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be dynamically populated here -->
+            </tbody>
+        </table>
+        <div class="buttons">
+            <button onclick="location.href='../index.html'">Back to Home</button>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const token = localStorage.getItem("token");
+            
+            if (!token) {
+                // If no token is found, redirect to login page
+                window.location.href = "../IdentityRelatedPages/login.html";
+                return;
+            }
+
+            // Fetching the requests
+            fetch("https://localhost:7034/User/getAllRequestsToMechanicForUser", {
+                method: "GET",
+                headers: {
+                    "Authorization": `Bearer ${token}`,
+                    "Content-Type": "application/json"
+                }
+            })
+            .then(response => response.json())
+            .then(requests => {
+                const tableBody = document.getElementById("requestsTable").getElementsByTagName("tbody")[0];
+                if (requests.length === 0) {
+                    tableBody.innerHTML = "<tr><td colspan='3'>No requests found.</td></tr>";
+                } else {
+                    requests.forEach(request => {
+                        const row = document.createElement("tr");
+                        row.innerHTML = `
+                            <td>${request.title}</td>
+                            <td>${request.description}</td>
+                            <td><span class="status">${request.status}</span></td>
+                        `;
+                        tableBody.appendChild(row);
+                    });
+                }
+            })
+            .catch(error => {
+                console.error("Error fetching requests:", error);
+                alert("An error occurred while fetching the requests.");
+            });
+        });
+    </script>
+</body>
+</html>

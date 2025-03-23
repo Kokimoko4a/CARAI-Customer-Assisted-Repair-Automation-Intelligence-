@@ -95,6 +95,16 @@
                 };
                 
                 buttonContainer.appendChild(askMechanicBtn);
+
+                // Add "View all requests to mechanics" button
+                const viewRequestsBtn = document.createElement("button");
+                viewRequestsBtn.textContent = "View all requests to mechanics";
+                viewRequestsBtn.onclick = function () {
+                    // Action when "View all requests to mechanics" button is clicked
+                    window.location.href = "/RequestRelatedPages/viewRequests.html";
+                };
+
+                buttonContainer.appendChild(viewRequestsBtn);
             }
         });
     </script>

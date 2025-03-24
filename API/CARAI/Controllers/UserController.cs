@@ -7,7 +7,6 @@ namespace CARAI.API.Controllers
     using CARAI.Application.Queries.RequestsToMechanic;
     using CARAI.Domain.Entities;
     using MediatR;
-    using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.IdentityModel.Tokens;

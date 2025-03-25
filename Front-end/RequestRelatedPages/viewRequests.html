@@ -3,139 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>View Requests to Mechanics</title>
+    <title>Requests to Mechanic</title>
     <style>
-        /* Dark Theme */
         body {
             font-family: Arial, sans-serif;
-            background: #1e1e2e;
-            color: #ddd;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            background-color: black; /* Set background to black */
+            color: white; /* Set text to white */
         }
-
-        .container {
-            background: #2a2a3a;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-            width: 600px;
+        .request-container {
+            border: 2px solid purple; /* Purple border */
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background-color: #1a1a1a; /* Dark gray box */
         }
-
-        h1 {
-            margin-bottom: 20px;
-            color: #ffffff;
-            font-weight: 700;
-        }
-
-        table {
-            width: 100%;
-            margin-top: 20px;
-            border-collapse: collapse;
-            text-align: left;
-            color: white;
-        }
-
-        th, td {
-            padding: 10px;
-            border-bottom: 1px solid #444;
-        }
-
-        th {
-            background-color: #333;
-        }
-
-        .status {
-            font-weight: bold;
-        }
-
-        .buttons {
-            margin-top: 20px;
-        }
-
-        button {
-            width: 100%;
-            padding: 12px;
-            background: #6272a4;
+        .view-btn {
+            background-color: purple; /* Purple button */
             color: white;
             border: none;
-            border-radius: 5px;
+            padding: 8px 12px;
             cursor: pointer;
-            font-size: 16px;
+            border-radius: 5px;
             font-weight: bold;
-            transition: 0.3s;
         }
-
-        button:hover {
-            background: #53608c;
+        .view-btn:hover {
+            background-color: #800080; /* Darker purple on hover */
+        }
+        #responseContainer {
+            margin-top: 20px;
+            padding: 15px;
+            border: 2px solid purple;
+            display: none;
+            border-radius: 5px;
+            background-color: #1a1a1a; /* Dark gray */
+        }
+        pre {
+            color: white;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Requests to Mechanics</h1>
-        <table id="requestsTable">
-            <thead>
-                <tr>
-                    <th>Title</th>
-                    <th>Description</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Data will be dynamically populated here -->
-            </tbody>
-        </table>
-        <div class="buttons">
-            <button onclick="location.href='../index.html'">Back to Home</button>
-        </div>
+
+    <h2>Requests to Mechanic</h2>
+
+    <div id="requestsContainer">
+        <!-- Requests dynamically generated here -->
     </div>
-    
+
+    <div id="responseContainer">
+        <h3>Request Details</h3>
+        <pre id="responseText">No details loaded yet.</pre>
+    </div>
+
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            const token = localStorage.getItem("token");
-            
-            if (!token) {
-                // If no token is found, redirect to login page
-                window.location.href = "../IdentityRelatedPages/login.html";
-                return;
-            }
+            // Example list of requests (Replace with actual server data)
+            const requests = [
+                { userSenderId: "11111111-1111-1111-1111-111111111111", requestToMechanicId: "123e4567-e89b-12d3-a456-426614174000" },
+                { userSenderId: "22222222-2222-2222-2222-222222222222", requestToMechanicId: "223e4567-e89b-12d3-a456-426614174001" }
+            ];
 
-            // Fetching the requests
-            fetch("https://localhost:7034/User/getAllRequestsToMechanicForUser", {
-                method: "GET",
-                headers: {
-                    "Authorization": `Bearer ${token}`,
-                    "Content-Type": "application/json"
-                }
-            })
-            .then(response => response.json())
-            .then(requests => {
-                const tableBody = document.getElementById("requestsTable").getElementsByTagName("tbody")[0];
-                if (requests.length === 0) {
-                    tableBody.innerHTML = "<tr><td colspan='3'>No requests found.</td></tr>";
-                } else {
-                    requests.forEach(request => {
-                        const row = document.createElement("tr");
-                        row.innerHTML = `
-                            <td>${request.title}</td>
-                            <td>${request.description}</td>
-                            <td><span class="status">${request.status}</span></td>
-                        `;
-                        tableBody.appendChild(row);
-                    });
-                }
-            })
-            .catch(error => {
-                console.error("Error fetching requests:", error);
-                alert("An error occurred while fetching the requests.");
+            const requestsContainer = document.getElementById("requestsContainer");
+
+            // Generate request elements
+            requests.forEach(request => {
+                const div = document.createElement("div");
+                div.classList.add("request-container");
+
+                div.innerHTML = `
+                    <p><strong>Request ID:</strong> ${request.requestToMechanicId}</p>
+                    <button class="view-btn" data-user-id="${request.userSenderId}" data-request-id="${request.requestToMechanicId}">View</button>
+                `;
+
+                requestsContainer.appendChild(div);
+            });
+
+            // Add event listeners to all buttons
+            document.querySelectorAll(".view-btn").forEach(button => {
+                button.addEventListener("click", function () {
+                    const userSenderId = this.getAttribute("data-user-id");
+                    const requestToMechanicId = this.getAttribute("data-request-id");
+                    viewRequestDetails(userSenderId, requestToMechanicId);
+                });
             });
         });
+
+        async function viewRequestDetails(userSenderId, requestToMechanicId) {
+            const url = `https://localhost:7034/RequestToMechanic/getDetailsForRequestToMechanic?requestId=${requestToMechanicId}`;
+
+            const requestBody = {
+                UserSenderId: userSenderId,
+                RequestToMechanicId: requestToMechanicId
+            };
+
+            try {
+                const response = await fetch(url, {
+                    method: "GET",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                   // GET requests don't usually have a body
+                });
+
+                if (!response.ok) {
+                    throw new Error("Failed to fetch details");
+                }
+
+                const data = await response.json();
+
+                // Display response
+                document.getElementById("responseText").textContent = JSON.stringify(data, null, 4);
+                document.getElementById("responseContainer").style.display = "block";
+
+            } catch (error) {
+                console.error("Error:", error);
+                alert("Failed to fetch request details.");
+            }
+        }
     </script>
+
 </body>
 </html>

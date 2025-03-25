@@ -3,6 +3,7 @@
 namespace CARAI.API.Controllers
 {
     using CARAI.Application.DTOs.RequestToMechanic;
+    using CARAI.Application.Queries.RequestsToMechanic;
     using CARAI.Domain.Entities;
     using MediatR;
     using Microsoft.AspNetCore.Identity;
@@ -22,7 +23,7 @@ namespace CARAI.API.Controllers
 
 
         [HttpGet("getDetailsForRequestToMechanic")]
-        public async Task<ActionResult> GetDetailsForRequestToMechanic([FromBody] RequestToMechanicBigDto requestToMechanicBigDto)
+        public async Task<ActionResult> GetDetailsForRequestToMechanic([FromRoute] string requestId)
         {
             if (GetTokenAndIdIfExists() == null)
             {
@@ -30,7 +31,13 @@ namespace CARAI.API.Controllers
             }
 
 
-            RequestToMechanicBigDto? mechanicBigDto = (RequestToMechanicBigDto?)await mediator.Send(requestToMechanicBigDto);
+            RequestToMechanicDetailsCommand requestToMechanicDetailsCommand = new RequestToMechanicDetailsCommand();
+            requestToMechanicDetailsCommand.RequestToMechanicId = Guid.Parse(requestId);
+            requestToMechanicDetailsCommand.UserSenderId = Guid.Parse(GetTokenAndIdIfExists());
+
+
+
+            RequestToMechanicBigDto? mechanicBigDto = (RequestToMechanicBigDto?)await mediator.Send(requestToMechanicDetailsCommand);
 
             if (mechanicBigDto == null)
             {

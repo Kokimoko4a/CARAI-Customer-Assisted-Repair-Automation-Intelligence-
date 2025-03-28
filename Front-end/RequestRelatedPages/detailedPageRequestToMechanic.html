@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requests to Mechanic</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #bb86fc;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+        }
+        h2 {
+            color: #c77dff;
+            text-align: center;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #1e1e2e;
+            color: #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        .table th, .table td {
+            padding: 12px;
+            text-align: left;
+        }
+        .table th {
+            background-color: #6a00f4;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        .table tbody tr:nth-child(even) {
+            background-color: #2a2a3b;
+        }
+        .table tbody tr:hover {
+            background-color: #3a3a5b;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <h2>Requests to Mechanic</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>SenderId</th>
+                <th>ReceiverId</th>
+                <th>Mechanic</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="requestsTableBody">
+            <!-- Data will be inserted dynamically here -->
+        </tbody>
+    </table>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const requests = [
+                {
+                    id: "1",
+                    senderId: "123",
+                    receiverId: "456",
+                    mechanicReceiver: "John Doe",
+                    title: "Engine Issue",
+                    description: "The engine is making strange noises.",
+                    status: "Pending"
+                }
+            ];
+            
+            const tableBody = document.getElementById("requestsTableBody");
+            
+            requests.forEach(request => {
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td>${request.id}</td>
+                    <td>${request.senderId}</td>
+                    <td>${request.receiverId || "N/A"}</td>
+                    <td>${request.mechanicReceiver || "N/A"}</td>
+                    <td>${request.title}</td>
+                    <td>${request.description}</td>
+                    <td>${request.status}</td>
+                `;
+                tableBody.appendChild(row);
+            });
+        });
+    </script>
+</body>
+</html>

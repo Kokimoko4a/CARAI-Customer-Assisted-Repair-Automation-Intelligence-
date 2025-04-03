@@ -112,7 +112,10 @@
         });
 
         async function viewRequestDetails(requestToMechanicId, token) {
-            const url = `https://localhost:7034/RequestToMechanic/getDetailsForRequestToMechanic/${requestToMechanicId}`;
+
+
+            window.location.href =  'detailedPageRequestToMechanic.html';
+           /* const url = `https://localhost:7034/RequestToMechanic/getDetailsForRequestToMechanic/${requestToMechanicId}`;
 
             try {
                 const response = await fetch(url, {
@@ -136,7 +139,7 @@
             } catch (error) {
                 console.error("Error:", error);
                 alert("Failed to fetch request details.");
-            }
+            } WE WILL USE THIS IN THE DETAILS PAGE*/
         }
     </script>
 

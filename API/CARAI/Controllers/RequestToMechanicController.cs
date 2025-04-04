@@ -22,8 +22,8 @@ namespace CARAI.API.Controllers
         }
 
 
-        [HttpGet("getDetailsForRequestToMechanic/{requestId}")]
-        public async Task<ActionResult> GetDetailsForRequestToMechanic([FromRoute] string requestId)
+        [HttpGet("getDetailsForRequestToMechanic")]
+        public async Task<ActionResult> GetDetailsForRequestToMechanic([FromQuery] string requestId)
         {
             if (GetTokenAndIdIfExists() == null)
             {

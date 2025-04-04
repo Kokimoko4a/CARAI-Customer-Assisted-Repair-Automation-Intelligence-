@@ -62,22 +62,27 @@
     </table>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const requests = [
-                {
-                    id: "1",
-                    senderId: "123",
-                    receiverId: "456",
-                    mechanicReceiver: "John Doe",
-                    title: "Engine Issue",
-                    description: "The engine is making strange noises.",
-                    status: "Pending"
+        document.addEventListener("DOMContentLoaded", async function () {
+            const urlParams = new URLSearchParams(window.location.search);
+            const requestId = urlParams.get('requestId');
+            const token = localStorage.getItem('token'); // Replace with actual token
+            const url = `https://localhost:7034/RequestToMechanic/getDetailsForRequestToMechanic?requestId=${requestId}`;
+
+            try {
+                const response = await fetch(url, {
+                    method: "GET",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "Authorization": `Bearer ${token}`
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error("Failed to fetch request details");
                 }
-            ];
-            
-            const tableBody = document.getElementById("requestsTableBody");
-            
-            requests.forEach(request => {
+
+                const request = await response.json();
+                const tableBody = document.getElementById("requestsTableBody");
                 const row = document.createElement("tr");
                 row.innerHTML = `
                     <td>${request.id}</td>
@@ -89,7 +94,10 @@
                     <td>${request.status}</td>
                 `;
                 tableBody.appendChild(row);
-            });
+            } catch (error) {
+                console.error("Error:", error);
+                alert("Failed to fetch request details.");
+            }
         });
     </script>
 </body>

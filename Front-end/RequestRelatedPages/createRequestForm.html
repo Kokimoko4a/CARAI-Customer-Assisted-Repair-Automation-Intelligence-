@@ -102,6 +102,7 @@
                 if (response.ok) {
                     alert('Request submitted successfully');
                     document.getElementById('createForm').reset();
+                    window.location.href = '/RequestRelatedPages/viewRequests.html';
                 } else {
                     const errorData = await response.json();
                     alert('Error: ' + (errorData.message || 'Something went wrong'));

@@ -10,56 +10,51 @@
             color: #bb86fc;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         h2 {
             color: #c77dff;
             text-align: center;
         }
-        .table {
-            width: 100%;
-            border-collapse: collapse;
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            max-width: 1000px;
+        }
+        .card {
             background-color: #1e1e2e;
             color: #e0e0e0;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.6);
+            width: 400px;
+            transition: transform 0.3s, box-shadow 0.3s;
         }
-        .table th, .table td {
-            padding: 12px;
-            text-align: left;
-        }
-        .table th {
-            background-color: #6a00f4;
-            color: #ffffff;
-            font-weight: bold;
-        }
-        .table tbody tr:nth-child(even) {
-            background-color: #2a2a3b;
-        }
-        .table tbody tr:hover {
+        .card:hover {
+            transform: scale(1.08);
             background-color: #3a3a5b;
-            transition: 0.3s;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.7);
+        }
+        .card h3 {
+            color: #6a00f4;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        .card p {
+            margin: 10px 0;
+            font-size: 1.1em;
         }
     </style>
 </head>
 <body>
     <h2>Requests to Mechanic</h2>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>SenderId</th>
-                <th>ReceiverId</th>
-                <th>Mechanic</th>
-                <th>Title</th>
-                <th>Description</th>
-                <th>Status</th>
-            </tr>
-        </thead>
-        <tbody id="requestsTableBody">
-            <!-- Data will be inserted dynamically here -->
-        </tbody>
-    </table>
+    <div class="card-container" id="requestsContainer">
+        <!-- Data will be inserted dynamically here -->
+    </div>
 
     <script>
         document.addEventListener("DOMContentLoaded", async function () {
@@ -82,18 +77,16 @@
                 }
 
                 const request = await response.json();
-                const tableBody = document.getElementById("requestsTableBody");
-                const row = document.createElement("tr");
-                row.innerHTML = `
-                    <td>${request.id}</td>
-                    <td>${request.senderId}</td>
-                    <td>${request.receiverId || "N/A"}</td>
-                    <td>${request.mechanicReceiver || "N/A"}</td>
-                    <td>${request.title}</td>
-                    <td>${request.description}</td>
-                    <td>${request.status}</td>
+                const container = document.getElementById("requestsContainer");
+                const card = document.createElement("div");
+                card.classList.add("card");
+                card.innerHTML = `
+                    <h3>${request.title}</h3>
+                    <p><strong>Mechanic:</strong> ${request.mechanicReceiver || "N/A"}</p>
+                    <p><strong>Description:</strong> ${request.description}</p>
+                    <p><strong>Status:</strong> ${request.status}</p>
                 `;
-                tableBody.appendChild(row);
+                container.appendChild(card);
             } catch (error) {
                 console.error("Error:", error);
                 alert("Failed to fetch request details.");

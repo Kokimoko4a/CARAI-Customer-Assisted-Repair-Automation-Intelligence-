@@ -8,6 +8,7 @@ namespace CARAI.API.Controllers
     using MediatR;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;
+    using static CARAI.Domain.Constants.GenerelApplicationConstrants;
 
     [Route("/RequestToMechanic")]
     [ApiController]
@@ -31,7 +32,7 @@ namespace CARAI.API.Controllers
             }
 
 
-            RequestToMechanicDetailsCommand requestToMechanicDetailsCommand = new RequestToMechanicDetailsCommand();
+            RequestToMechanicDetailsQuery requestToMechanicDetailsCommand = new RequestToMechanicDetailsQuery();
             requestToMechanicDetailsCommand.RequestToMechanicId = Guid.Parse(requestId);
             requestToMechanicDetailsCommand.UserSenderId = Guid.Parse(GetTokenAndIdIfExists());
 
@@ -48,6 +49,22 @@ namespace CARAI.API.Controllers
 
         }
 
+
+        [HttpPut("updateRequestToMechanic/{requestId}")]
+        public async Task<ActionResult> UpdateRequestToMechanic([FromRoute] string requestId)
+        {
+            if (GetTokenAndIdIfExists() == null)
+            {
+                return BadRequest(UserNotLoggedErrorMessage);
+            }
+
+            RequestToMechanicDetailsQuery requestToMechanicDetailsQuery = new RequestToMechanicDetailsQuery();
+
+            requestToMechanicDetailsQuery.RequestToMechanicId = Guid.Parse(requestId);
+            requestToMechanicDetailsQuery.UserSenderId = Guid.Parse(GetTokenAndIdIfExists());
+
+            return Ok(mediator.Send(requestToMechanicDetailsQuery));
+        }
 
 
         private string GetTokenAndIdIfExists()

@@ -14,8 +14,8 @@ namespace CARAI.Application.Interfaces
 
         public Task<ICollection<RequestToMechanicSmallDto>> GetAllRequestsToMechanicForUserAsync(Guid id);
 
-        public Task<bool> IsSender(RequestToMechanicDetailsCommand command);
+        public Task<bool> IsSender(RequestToMechanicDetailsQuery command);
 
-        public Task<RequestToMechanicBigDto> GetDetailsForRequestToMechanic(RequestToMechanicDetailsCommand command);
+        public Task<RequestToMechanicBigDto> GetDetailsForRequestToMechanic(RequestToMechanicDetailsQuery command);
     }
 }

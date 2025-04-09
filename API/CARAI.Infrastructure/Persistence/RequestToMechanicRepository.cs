@@ -42,7 +42,7 @@ namespace CARAI.Infrastructure.Persistence
                     }).ToArrayAsync();
         }
 
-        public async Task<RequestToMechanicBigDto> GetDetailsForRequestToMechanic(RequestToMechanicDetailsCommand command)
+        public async Task<RequestToMechanicBigDto> GetDetailsForRequestToMechanic(RequestToMechanicDetailsQuery command)
         {
            return await data.RequestToMechanics.Include(x => x.MechanicReceiver).Where(x => x.Id == command.RequestToMechanicId)
                 .Select(x => new RequestToMechanicBigDto()
@@ -57,7 +57,7 @@ namespace CARAI.Infrastructure.Persistence
            }).FirstAsync();
         }
 
-        public async Task<bool> IsSender(RequestToMechanicDetailsCommand command)
+        public async Task<bool> IsSender(RequestToMechanicDetailsQuery command)
         {
             RequestToMechanic? request = await data.RequestToMechanics.FirstOrDefaultAsync(x => x.Id == command.RequestToMechanicId);
 

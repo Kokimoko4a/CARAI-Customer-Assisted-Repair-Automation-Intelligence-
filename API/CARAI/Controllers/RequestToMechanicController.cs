@@ -50,7 +50,7 @@ namespace CARAI.API.Controllers
         }
 
 
-        [HttpPut("updateRequestToMechanic/{requestId}")]
+       /* [HttpPut("updateRequestToMechanic/{requestId}")]
         public async Task<ActionResult> UpdateRequestToMechanic([FromRoute] string requestId)
         {
             if (GetTokenAndIdIfExists() == null)
@@ -64,7 +64,7 @@ namespace CARAI.API.Controllers
             requestToMechanicDetailsQuery.UserSenderId = Guid.Parse(GetTokenAndIdIfExists());
 
             return Ok(mediator.Send(requestToMechanicDetailsQuery));
-        }
+        }*/ // this should have replacement logic so to be used as update method
 
 
         private string GetTokenAndIdIfExists()

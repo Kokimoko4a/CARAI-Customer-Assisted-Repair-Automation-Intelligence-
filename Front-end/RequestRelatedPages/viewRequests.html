@@ -19,7 +19,7 @@
             border-radius: 5px;
             background-color: #1a1a1a;
         }
-        .view-btn {
+        .view-btn, .edit-btn {
             background-color: purple;
             color: white;
             border: none;
@@ -27,9 +27,16 @@
             cursor: pointer;
             border-radius: 5px;
             font-weight: bold;
+            margin-right: 10px;
         }
         .view-btn:hover {
             background-color: #800080;
+        }
+        .edit-btn {
+            background-color: #4B0082; /* Indigo */
+        }
+        .edit-btn:hover {
+            background-color: #6A0DAD;
         }
         #responseContainer {
             margin-top: 20px;
@@ -60,7 +67,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", async function () {
             try {
-                // Retrieve the token from localStorage (adjust if you store it elsewhere)
+                // Retrieve the token from localStorage
                 const token = localStorage.getItem("token");
 
                 if (!token) {
@@ -68,20 +75,20 @@
                     return;
                 }
 
-                // Fetch requests from the server with the token
+                // Fetch requests from the server
                 const response = await fetch("https://localhost:7034/User/getAllRequestsToMechanicForUser", {
                     method: "GET",
                     headers: {
                         "Content-Type": "application/json",
-                        "Authorization": `Bearer ${token}`  // Add the token to the request headers
+                        "Authorization": `Bearer ${token}`
                     }
                 });
 
                 if (!response.ok) {
                     throw new Error("Failed to fetch requests");
                 }
+
                 const requests = await response.json();
-                
                 const requestsContainer = document.getElementById("requestsContainer");
 
                 // Generate request elements dynamically
@@ -92,16 +99,25 @@
                     div.innerHTML = `
                         <p><strong>Title:</strong> ${request.title}</p>
                         <button class="view-btn" data-request-id="${request.id}">View</button>
+                        <button class="edit-btn" data-request-id="${request.id}">Edit</button>
                     `;
 
                     requestsContainer.appendChild(div);
                 });
 
-                // Add event listeners to all buttons
+                // View button event
                 document.querySelectorAll(".view-btn").forEach(button => {
                     button.addEventListener("click", function () {
-                        const requestToMechanicId = this.getAttribute("data-request-id");
-                        viewRequestDetails(requestToMechanicId, token);
+                        const requestId = this.getAttribute("data-request-id");
+                        viewRequestDetails(requestId, token);
+                    });
+                });
+
+                // Edit button event
+                document.querySelectorAll(".edit-btn").forEach(button => {
+                    button.addEventListener("click", function () {
+                        const requestId = this.getAttribute("data-request-id");
+                        window.location.href = `editRequestToMechanicForm.html?requestId=${requestId}`;
                     });
                 });
 
@@ -111,35 +127,9 @@
             }
         });
 
-        async function viewRequestDetails(requestToMechanicId, token) {
-
-
-            window.location.href =  `detailedPageRequestToMechanic.html?requestId=${requestToMechanicId}`;
-           /* const url = `https://localhost:7034/RequestToMechanic/getDetailsForRequestToMechanic/${requestToMechanicId}`;
-
-            try {
-                const response = await fetch(url, {
-                    method: "GET",
-                    headers: {
-                        "Content-Type": "application/json",
-                        "Authorization": `Bearer ${token}`  // Add the token to the request headers
-                    }
-                });
-
-                if (!response.ok) {
-                    throw new Error("Failed to fetch request details");
-                }
-
-                const data = await response.json();
-
-                // Display response
-                document.getElementById("responseText").textContent = JSON.stringify(data, null, 4);
-                document.getElementById("responseContainer").style.display = "block";
-
-            } catch (error) {
-                console.error("Error:", error);
-                alert("Failed to fetch request details.");
-            } WE WILL USE THIS IN THE DETAILS PAGE*/
+        function viewRequestDetails(requestId, token) {
+            // Redirect to details page (can be read-only or edit depending on the page logic)
+            window.location.href = `detailedPageRequestToMechanic.html?requestId=${requestId}`;
         }
     </script>
 

@@ -3,30 +3,51 @@
   "WorkspaceRootPath": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\commands\\requesttomechanic\\updaterequesttomechaniccommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai\\controllers\\requesttomechaniccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|solutionrelative:controllers\\requesttomechaniccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D6429D3-B4D4-475E-8553-A885923F72A4}|..\\CARAI.Domain\\CARAI.Domain.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.domain\\entities\\requesttomechanic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\dtos\\requesttomechanic\\requesttomechanicbigdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\queries\\requesttomechanic\\requesttomechanicdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54811A1B-22DF-4815-871D-BB6E7AD8E25E}|..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.infrastructure\\persistence\\requesttomechanicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\queries\\requesttomechanic\\requesttomechanicdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54811A1B-22DF-4815-871D-BB6E7AD8E25E}|..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.infrastructure\\persistence\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\dtos\\requesttomechanic\\requesttomechanicsmalldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\commands\\user\\registeraccountcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\commands\\requesttomechanic\\updaterequesttomechaniccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\commands\\requesttomechanic\\createrequesttomechanichandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\commands\\requesttomechanic\\createrequesttomechaniccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\commands\\requesttomechanic\\createrequesttomechanichandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\queries\\requesttomechanic\\requesttomechanicdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54811A1B-22DF-4815-871D-BB6E7AD8E25E}|..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.infrastructure\\persistence\\caraidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\dtos\\requesttomechanic\\requesttomechanicbigdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D6429D3-B4D4-475E-8553-A885923F72A4}|..\\CARAI.Domain\\CARAI.Domain.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.domain\\entities\\requesttomechanic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\queries\\requesttomechanic\\requesttomechanicdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\queries\\requesttomechanic\\requesttomechanicqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -46,31 +67,16 @@
       "RelativeMoniker": "D:0:0:{28EB70D6-CE3B-4F3C-A76C-B7BCF509763D}|CARAI.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\dtos\\requesttomechanic\\requesttomechanicsmalldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54811A1B-22DF-4815-871D-BB6E7AD8E25E}|..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.infrastructure\\persistence\\requesttomechanicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\interfaces\\irequesttomechanicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\commands\\user\\registeraccountcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\commands\\user\\logusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54811A1B-22DF-4815-871D-BB6E7AD8E25E}|..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.infrastructure\\persistence\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB081E08-9B72-440B-BB0E-ECA2D455FF89}|..\\CARAI.Application\\CARAI.Application.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.application\\carai.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54811A1B-22DF-4815-871D-BB6E7AD8E25E}|..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.infrastructure\\persistence\\caraidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54811A1B-22DF-4815-871D-BB6E7AD8E25E}|..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj|d:\\kaloyan\\carai\\carai-customer-assisted-repair-automation-intelligence-\\api\\carai.infrastructure\\carai.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -190,7 +196,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -210,104 +216,202 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RequestToMechanicDetailsQuery.cs",
-              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicDetailsQuery.cs",
-              "RelativeDocumentMoniker": "..\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicDetailsQuery.cs",
-              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicDetailsQuery.cs",
-              "RelativeToolTip": "..\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicDetailsQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "UpdateRequestToMechanicCommandHandler.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Commands\\RequestToMechanic\\UpdateRequestToMechanicCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Application\\Commands\\RequestToMechanic\\UpdateRequestToMechanicCommandHandler.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Commands\\RequestToMechanic\\UpdateRequestToMechanicCommandHandler.cs",
+              "RelativeToolTip": "..\\CARAI.Application\\Commands\\RequestToMechanic\\UpdateRequestToMechanicCommandHandler.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T18:03:26.161Z"
+              "WhenOpened": "2025-07-14T10:53:49.801Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\Persistence\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\Persistence\\UserRepository.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\Persistence\\UserRepository.cs",
+              "RelativeToolTip": "..\\CARAI.Infrastructure\\Persistence\\UserRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T17:12:42.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAqwHYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T09:17:24.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RequestToMechanicRepository.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\Persistence\\RequestToMechanicRepository.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\Persistence\\RequestToMechanicRepository.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\Persistence\\RequestToMechanicRepository.cs",
+              "RelativeToolTip": "..\\CARAI.Infrastructure\\Persistence\\RequestToMechanicRepository.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAuwFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T17:01:14.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RequestToMechanicController.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI\\Controllers\\RequestToMechanicController.cs",
               "RelativeDocumentMoniker": "Controllers\\RequestToMechanicController.cs",
               "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI\\Controllers\\RequestToMechanicController.cs",
               "RelativeToolTip": "Controllers\\RequestToMechanicController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAArwBwAAAAwAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAEIAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T18:00:14.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RequestToMechanicBigDto.cs",
-              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\DTOs\\RequestToMechanic\\RequestToMechanicBigDto.cs",
-              "RelativeDocumentMoniker": "..\\CARAI.Application\\DTOs\\RequestToMechanic\\RequestToMechanicBigDto.cs",
-              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\DTOs\\RequestToMechanic\\RequestToMechanicBigDto.cs",
-              "RelativeToolTip": "..\\CARAI.Application\\DTOs\\RequestToMechanic\\RequestToMechanicBigDto.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "DocumentIndex": 5,
+              "Title": "RequestToMechanicSmallDto.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\DTOs\\RequestToMechanic\\RequestToMechanicSmallDto.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Application\\DTOs\\RequestToMechanic\\RequestToMechanicSmallDto.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\DTOs\\RequestToMechanic\\RequestToMechanicSmallDto.cs",
+              "RelativeToolTip": "..\\CARAI.Application\\DTOs\\RequestToMechanic\\RequestToMechanicSmallDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T18:04:13.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAIkAAAAAAAAAAAAAwCEAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T09:17:24.95Z"
+              "WhenOpened": "2025-03-22T13:56:20.276Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CreateRequestToMechanicCommand.cs",
-              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Commands\\RequestToMechanic\\CreateRequestToMechanicCommand.cs",
-              "RelativeDocumentMoniker": "..\\CARAI.Application\\Commands\\RequestToMechanic\\CreateRequestToMechanicCommand.cs",
-              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Commands\\RequestToMechanic\\CreateRequestToMechanicCommand.cs",
-              "RelativeToolTip": "..\\CARAI.Application\\Commands\\RequestToMechanic\\CreateRequestToMechanicCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "RegisterAccountCommandHandler.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Commands\\User\\RegisterAccountCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Application\\Commands\\User\\RegisterAccountCommandHandler.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Commands\\User\\RegisterAccountCommandHandler.cs",
+              "RelativeToolTip": "..\\CARAI.Application\\Commands\\User\\RegisterAccountCommandHandler.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T13:55:14.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RequestToMechanicDetailsQueryHandler.cs",
-              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicDetailsQueryHandler.cs",
-              "RelativeDocumentMoniker": "..\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicDetailsQueryHandler.cs",
-              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicDetailsQueryHandler.cs",
-              "RelativeToolTip": "..\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicDetailsQueryHandler.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T18:08:58.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RequestToMechanic.cs",
-              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
-              "RelativeDocumentMoniker": "..\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
-              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
-              "RelativeToolTip": "..\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T13:56:34.049Z"
+              "WhenOpened": "2025-03-20T17:03:56.063Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "UpdateRequestToMechanicCommand.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Commands\\RequestToMechanic\\UpdateRequestToMechanicCommand.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Application\\Commands\\RequestToMechanic\\UpdateRequestToMechanicCommand.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Commands\\RequestToMechanic\\UpdateRequestToMechanicCommand.cs",
+              "RelativeToolTip": "..\\CARAI.Application\\Commands\\RequestToMechanic\\UpdateRequestToMechanicCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T10:46:39.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CreateRequestToMechanicHandler.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Commands\\RequestToMechanic\\CreateRequestToMechanicHandler.cs",
               "RelativeDocumentMoniker": "..\\CARAI.Application\\Commands\\RequestToMechanic\\CreateRequestToMechanicHandler.cs",
               "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Commands\\RequestToMechanic\\CreateRequestToMechanicHandler.cs",
               "RelativeToolTip": "..\\CARAI.Application\\Commands\\RequestToMechanic\\CreateRequestToMechanicHandler.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T17:04:16.21Z"
+              "WhenOpened": "2025-03-20T17:04:16.21Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
+              "Title": "CreateRequestToMechanicCommand.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Commands\\RequestToMechanic\\CreateRequestToMechanicCommand.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Application\\Commands\\RequestToMechanic\\CreateRequestToMechanicCommand.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Commands\\RequestToMechanic\\CreateRequestToMechanicCommand.cs",
+              "RelativeToolTip": "..\\CARAI.Application\\Commands\\RequestToMechanic\\CreateRequestToMechanicCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:55:14.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RequestToMechanicDetailsQuery.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicDetailsQuery.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicDetailsQuery.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicDetailsQuery.cs",
+              "RelativeToolTip": "..\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicDetailsQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T18:03:26.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CARAIDbContext.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\Persistence\\CARAIDbContext.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\Persistence\\CARAIDbContext.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\Persistence\\CARAIDbContext.cs",
+              "RelativeToolTip": "..\\CARAI.Infrastructure\\Persistence\\CARAIDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T17:08:55.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RequestToMechanicBigDto.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\DTOs\\RequestToMechanic\\RequestToMechanicBigDto.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Application\\DTOs\\RequestToMechanic\\RequestToMechanicBigDto.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\DTOs\\RequestToMechanic\\RequestToMechanicBigDto.cs",
+              "RelativeToolTip": "..\\CARAI.Application\\DTOs\\RequestToMechanic\\RequestToMechanicBigDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T18:04:13.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RequestToMechanic.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
+              "RelativeToolTip": "..\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA5wCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:56:34.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RequestToMechanicDetailsQueryHandler.cs",
+              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicDetailsQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicDetailsQueryHandler.cs",
+              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicDetailsQueryHandler.cs",
+              "RelativeToolTip": "..\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicDetailsQueryHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T18:08:58.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "RequestToMechanicQueryHandler.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicQueryHandler.cs",
@@ -319,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "RequestToMechanicQuery.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicQuery.cs",
               "RelativeDocumentMoniker": "..\\CARAI.Application\\Queries\\RequestToMechanic\\RequestToMechanicQuery.cs",
@@ -331,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "GenerelApplicationConstrants.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Domain\\Constants\\GenerelApplicationConstrants.cs",
               "RelativeDocumentMoniker": "..\\CARAI.Domain\\Constants\\GenerelApplicationConstrants.cs",
@@ -343,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -355,19 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RequestToMechanicSmallDto.cs",
-              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\DTOs\\RequestToMechanic\\RequestToMechanicSmallDto.cs",
-              "RelativeDocumentMoniker": "..\\CARAI.Application\\DTOs\\RequestToMechanic\\RequestToMechanicSmallDto.cs",
-              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\DTOs\\RequestToMechanic\\RequestToMechanicSmallDto.cs",
-              "RelativeToolTip": "..\\CARAI.Application\\DTOs\\RequestToMechanic\\RequestToMechanicSmallDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T13:56:20.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -379,19 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RequestToMechanicRepository.cs",
-              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\Persistence\\RequestToMechanicRepository.cs",
-              "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\Persistence\\RequestToMechanicRepository.cs",
-              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\Persistence\\RequestToMechanicRepository.cs",
-              "RelativeToolTip": "..\\CARAI.Infrastructure\\Persistence\\RequestToMechanicRepository.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAmwEQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T17:01:14.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "IRequestToMechanicRepository.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Interfaces\\IRequestToMechanicRepository.cs",
               "RelativeDocumentMoniker": "..\\CARAI.Application\\Interfaces\\IRequestToMechanicRepository.cs",
@@ -403,19 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\Persistence\\UserRepository.cs",
-              "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\Persistence\\UserRepository.cs",
-              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\Persistence\\UserRepository.cs",
-              "RelativeToolTip": "..\\CARAI.Infrastructure\\Persistence\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T17:12:42.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "LogUserCommandHandler.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Commands\\User\\LogUserCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\CARAI.Application\\Commands\\User\\LogUserCommandHandler.cs",
@@ -427,19 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RegisterAccountCommandHandler.cs",
-              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Commands\\User\\RegisterAccountCommandHandler.cs",
-              "RelativeDocumentMoniker": "..\\CARAI.Application\\Commands\\User\\RegisterAccountCommandHandler.cs",
-              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Commands\\User\\RegisterAccountCommandHandler.cs",
-              "RelativeToolTip": "..\\CARAI.Application\\Commands\\User\\RegisterAccountCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T17:03:56.063Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "..\\CARAI.Application\\Interfaces\\IUserRepository.cs",
@@ -451,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "CARAI.Application.csproj",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Application\\CARAI.Application.csproj",
               "RelativeDocumentMoniker": "..\\CARAI.Application\\CARAI.Application.csproj",
@@ -463,19 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CARAIDbContext.cs",
-              "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\Persistence\\CARAIDbContext.cs",
-              "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\Persistence\\CARAIDbContext.cs",
-              "ToolTip": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\Persistence\\CARAIDbContext.cs",
-              "RelativeToolTip": "..\\CARAI.Infrastructure\\Persistence\\CARAIDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T17:08:55.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "CARAI.Infrastructure.csproj",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj",
               "RelativeDocumentMoniker": "..\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj",
@@ -487,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Repository.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\Repository.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Infrastructure\\Persistence\\Repository.cs",
@@ -499,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "CARAIDbContext.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\CARAIDbContext.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Infrastructure\\Persistence\\CARAIDbContext.cs",
@@ -511,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "CARAIDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Migrations\\CARAIDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Infrastructure\\Migrations\\CARAIDbContextModelSnapshot.cs",
@@ -523,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "CreateRequestToMechanicHandler.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\Commands\\RequestToMechanic\\CreateRequestToMechanicHandler.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Application\\Commands\\RequestToMechanic\\CreateRequestToMechanicHandler.cs",
@@ -534,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "CreateRequestToMechanicCommand.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\Commands\\RequestToMechanic\\CreateRequestToMechanicCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Application\\Commands\\RequestToMechanic\\CreateRequestToMechanicCommand.cs",
@@ -546,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "ResponseFromMechanicEntityConfiguration.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\ResponseFromMechanicEntityConfiguration.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\ResponseFromMechanicEntityConfiguration.cs",
@@ -558,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "20250317161306_ChnagedTheEntityConfigurations.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Migrations\\20250317161306_ChnagedTheEntityConfigurations.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Infrastructure\\Migrations\\20250317161306_ChnagedTheEntityConfigurations.cs",
@@ -570,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "RequestToMechanicEntityConfiguration.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\RequestToMechanicEntityConfiguration.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\RequestToMechanicEntityConfiguration.cs",
@@ -582,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "20250317151536_MadeReceiverOfRequestNullable.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Migrations\\20250317151536_MadeReceiverOfRequestNullable.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Infrastructure\\Migrations\\20250317151536_MadeReceiverOfRequestNullable.cs",
@@ -594,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "RequestToMechanic.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Domain\\Entities\\RequestToMechanic.cs",
@@ -606,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "ResponseFromMechanic.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\ResponseFromMechanic.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Domain\\Entities\\ResponseFromMechanic.cs",
@@ -618,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "LogUserCommand.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\Commands\\User\\LogUserCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Application\\Commands\\User\\LogUserCommand.cs",
@@ -630,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "IRepository.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\IRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Infrastructure\\Persistence\\IRepository.cs",
@@ -642,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "CARAI.Infrastructure.csproj",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Infrastructure\\CARAI.Infrastructure.csproj",
@@ -654,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "RegisterAccountCommandHandler.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\Commands\\User\\RegisterAccountCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Application\\Commands\\User\\RegisterAccountCommandHandler.cs",
@@ -665,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "LogUserCommandHandler.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\Commands\\User\\LogUserCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Application\\Commands\\User\\LogUserCommandHandler.cs",
@@ -677,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "MechanicTask.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\MechanicTask.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Domain\\Entities\\MechanicTask.cs",
@@ -689,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "RegisterAccountCommand.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\Commands\\User\\RegisterAccountCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Application\\Commands\\User\\RegisterAccountCommand.cs",
@@ -701,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Domain\\Entities\\ApplicationUser.cs",
@@ -713,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "20250304190123_AddedNewEntityCalledMechanicTask.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Migrations\\20250304190123_AddedNewEntityCalledMechanicTask.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Infrastructure\\Migrations\\20250304190123_AddedNewEntityCalledMechanicTask.cs",
@@ -725,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "Mechanic.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\Mechanic.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Domain\\Entities\\Mechanic.cs",
@@ -737,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "RequestStatusEnum.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\Enumerations\\RequestStatusEnum.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Domain\\Entities\\Enumerations\\RequestStatusEnum.cs",
@@ -749,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "MechanicTaskEntityConfiguration.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\MechanicTaskEntityConfiguration.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\MechanicTaskEntityConfiguration.cs",
@@ -761,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "MechanicEntityConfiguration.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\MechanicEntityConfiguration.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\MechanicEntityConfiguration.cs",
@@ -773,7 +817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "ResponseAndRequestConstants.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Constants\\ResponseAndRequestConstants.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Domain\\Constants\\ResponseAndRequestConstants.cs",
@@ -785,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "BookingEntityConfiguration.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\BookingEntityConfiguration.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Infrastructure\\Persistence\\EntityConfigurations\\BookingEntityConfiguration.cs",
@@ -797,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "20250303143737_AddedEntityCalledBooking.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Infrastructure\\Migrations\\20250303143737_AddedEntityCalledBooking.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Infrastructure\\Migrations\\20250303143737_AddedEntityCalledBooking.cs",
@@ -809,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "Booking.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Entities\\Booking.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Domain\\Entities\\Booking.cs",
@@ -821,7 +865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "BookingConstanrs.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Constants\\BookingConstanrs.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Domain\\Constants\\BookingConstanrs.cs",
@@ -833,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "MechanicConstants.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Constants\\MechanicConstants.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Domain\\Constants\\MechanicConstants.cs",
@@ -845,7 +889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "CARAI.API.csproj",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI\\CARAI.API.csproj",
               "RelativeDocumentMoniker": "CARAI.API.csproj",
@@ -857,7 +901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "ApplicationUserConstants.cs",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\Constants\\ApplicationUserConstants.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Domain\\Constants\\ApplicationUserConstants.cs",
@@ -869,7 +913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "CARAI.Domain.csproj",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Domain\\CARAI.Domain.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Domain\\CARAI.Domain.csproj",
@@ -881,7 +925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "CARAI.Application.csproj",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\API\\CARAI.Application\\CARAI.Application.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\API\\CARAI.Application\\CARAI.Application.csproj",
@@ -893,7 +937,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "CARAI.http",
               "DocumentMoniker": "D:\\Kaloyan\\CARAI\\CARAI-Customer-Assisted-Repair-Automation-Intelligence-\\API\\CARAI\\CARAI.http",
               "RelativeDocumentMoniker": "CARAI.http",

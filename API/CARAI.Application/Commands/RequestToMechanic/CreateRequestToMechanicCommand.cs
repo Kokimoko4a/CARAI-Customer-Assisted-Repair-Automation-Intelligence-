@@ -1,13 +1,10 @@
-﻿
-
-
-namespace CARAI.Application.Commands.RequestToMechanic
+﻿namespace CARAI.Application.Commands.RequestToMechanic
 {
-    using CARAI.Domain.Entities;
+    using CARAI.Application.DTOs.RequestToMechanic;
     using MediatR;
 
 
-    public class CreateRequestToMechanicCommand : IRequest<bool>
+    public class CreateRequestToMechanicCommand : IRequest<RequestToMechanicSmallDto>
     {
         public string UserSenderId { get; set; }
 

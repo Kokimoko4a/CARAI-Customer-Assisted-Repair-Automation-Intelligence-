@@ -2,6 +2,7 @@
 
 namespace CARAI.API.Controllers
 {
+    using CARAI.Application.Commands.RequestToMechanic;
     using CARAI.Application.DTOs.RequestToMechanic;
     using CARAI.Application.Queries.RequestsToMechanic;
     using CARAI.Domain.Entities;
@@ -56,21 +57,19 @@ namespace CARAI.API.Controllers
 
 
 
-       /* [HttpPut("updateRequestToMechanic/{requestId}")]
-        public async Task<ActionResult> UpdateRequestToMechanic([FromRoute] string requestId)
+        [HttpPut("updateRequestToMechanic")]
+        public async Task<ActionResult> UpdateRequestToMechanic(UpdateRequestToMechanicCommand requestToMechanicCommand)
         {
             if (GetTokenAndIdIfExists() == null)
             {
                 return BadRequest(UserNotLoggedErrorMessage);
             }
+            //add here calling the handler so to do the other edit thing 
+        } // this should have replacement logic so to be used as update method
 
-            RequestToMechanicDetailsQuery requestToMechanicDetailsQuery = new RequestToMechanicDetailsQuery();
 
-            requestToMechanicDetailsQuery.RequestToMechanicId = Guid.Parse(requestId);
-            requestToMechanicDetailsQuery.UserSenderId = Guid.Parse(GetTokenAndIdIfExists());
 
-            return Ok(mediator.Send(requestToMechanicDetailsQuery));
-        }*/ // this should have replacement logic so to be used as update method
+
 
 
         private string GetTokenAndIdIfExists()

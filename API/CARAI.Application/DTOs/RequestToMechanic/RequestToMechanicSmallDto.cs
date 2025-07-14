@@ -1,7 +1,5 @@
 ﻿namespace CARAI.Application.DTOs.RequestToMechanic
 {
-    using CARAI.Domain.Entities.Enumerations;
-
     public class RequestToMechanicSmallDto
     {
         public Guid Id { get; set; }
